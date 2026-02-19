@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://ai-made-simple-three.vercel.app/sitemap.xml
+Sitemap: https://hellosage.co.uk/sitemap.xml
