@@ -61,7 +61,7 @@ export default function ChatBot() {
   }
 
   return (
-    <div>
+    <div className="overflow-hidden">
       {/* Disclaimer */}
       <div
         className="rounded-btn p-4 mb-4 text-base"
@@ -125,9 +125,9 @@ export default function ChatBot() {
         <button
           onClick={send}
           disabled={loading || !input.trim()}
-          className="rounded-btn px-5 shrink-0 font-semibold text-body transition-opacity hover:opacity-90 disabled:opacity-50"
+          className="rounded-btn px-4 shrink-0 font-semibold text-base transition-opacity hover:opacity-90 disabled:opacity-50"
           style={{
-            minHeight: "52px",
+            minHeight: "48px",
             backgroundColor: "#2D5A3D",
             color: "white",
           }}
