@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { articles } from "./blog/articles";
 
-const BASE = "https://ai-made-simple-three.vercel.app";
+const BASE = "https://hellosage.co.uk";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [

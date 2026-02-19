@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   title: "Sage - AI Explained Simply for Older Adults",
   description:
     "Learn about artificial intelligence in plain English. Sage helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.",
-  metadataBase: new URL("https://ai-made-simple-three.vercel.app"),
+  metadataBase: new URL("https://hellosage.co.uk"),
   openGraph: {
     title: "Sage - AI Explained Simply for Older Adults",
     description:
       "Learn about artificial intelligence in plain English. Sage helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.",
-    url: "https://ai-made-simple-three.vercel.app",
+    url: "https://hellosage.co.uk",
     siteName: "Sage",
     type: "website",
     locale: "en_GB",
@@ -45,14 +45,14 @@ const schemaOrg = {
     {
       "@type": "Organization",
       name: "Sage",
-      url: "https://ai-made-simple-three.vercel.app",
+      url: "https://hellosage.co.uk",
       description: "AI explained simply for older adults",
     },
     {
       "@type": "WebSite",
       name: "Sage",
       description: "AI explained simply for older adults",
-      url: "https://ai-made-simple-three.vercel.app",
+      url: "https://hellosage.co.uk",
     },
   ],
 };

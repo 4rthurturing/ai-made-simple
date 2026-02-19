@@ -49,7 +49,7 @@ export default async function BlogPost({ params }: Props) {
     publisher: {
       "@type": "Organization",
       name: "Sage",
-      url: "https://ai-made-simple-three.vercel.app",
+      url: "https://hellosage.co.uk",
     },
     audience: {
       "@type": "Audience",
