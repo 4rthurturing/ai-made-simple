@@ -44,10 +44,10 @@ export default function CommonFears() {
 
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-6 text-amber-700">
+      <h1 className="text-h1 font-bold mb-4" style={{ color: "#2D5A3D" }}>
         🛡️ Common Fears
       </h1>
-      <p className="text-xl text-gray-600 mb-8">
+      <p className="text-body-lg mb-10" style={{ color: "#6B7280" }}>
         It&apos;s completely normal to have concerns about AI. Here are honest,
         straightforward answers to the worries we hear most often.
       </p>
@@ -56,21 +56,29 @@ export default function CommonFears() {
         {fears.map((fear, index) => (
           <div
             key={index}
-            className="bg-amber-50 border border-amber-200 rounded-xl p-6"
+            className="rounded-card p-8 border-2"
+            style={{ backgroundColor: "#EFF6FF", borderColor: "#93C5FD" }}
           >
-            <h2 className="text-2xl font-semibold mb-3 text-amber-800">
+            <h2
+              className="text-h3 font-semibold mb-4"
+              style={{ color: "#1E40AF" }}
+            >
               {fear.question}
             </h2>
-            <p className="text-xl leading-relaxed">{fear.answer}</p>
+            <p className="text-body leading-relaxed">{fear.answer}</p>
           </div>
         ))}
       </div>
 
-      <div className="bg-gray-100 rounded-xl p-6 text-center mt-8">
-        <p className="text-lg text-gray-600">
-          <strong>The bottom line:</strong> AI is a powerful tool, and like any
-          tool, it&apos;s all about how you use it. Stay curious, stay cautious,
-          and don&apos;t be afraid to try it out.
+      <div
+        className="rounded-card p-8 text-center mt-10"
+        style={{ backgroundColor: "#2D5A3D", color: "white" }}
+      >
+        <p className="text-h3 font-semibold mb-2">The Bottom Line</p>
+        <p className="text-body-lg">
+          AI is a powerful tool, and like any tool, it&apos;s all about how you
+          use it. Stay curious, stay cautious, and don&apos;t be afraid to try
+          it out.
         </p>
       </div>
     </div>

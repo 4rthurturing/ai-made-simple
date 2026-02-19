@@ -6,8 +6,9 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI Made Simple",
-  description: "A friendly guide to understanding AI — designed for everyone.",
+  title: "Sage — Your Friendly Guide to AI",
+  description:
+    "AI explained by humans, for humans. A friendly guide to understanding artificial intelligence — designed for everyone.",
 };
 
 const navLinks = [
@@ -25,18 +26,35 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-white text-gray-900 min-h-screen`}>
-        <nav className="bg-blue-600 text-white px-6 py-4 shadow-md">
-          <div className="max-w-4xl mx-auto flex flex-wrap items-center justify-between gap-4">
-            <Link href="/" className="text-2xl font-bold tracking-tight">
-              🤖 AI Made Simple
+      <body
+        className={`${inter.className} min-h-screen`}
+        style={{ backgroundColor: "#FAFAF5", color: "#1a1a1a" }}
+      >
+        {/* Skip to content for accessibility */}
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-sage-700 focus:rounded-btn focus:shadow-lg"
+        >
+          Skip to main content
+        </a>
+
+        <nav
+          className="px-6 py-5 shadow-sm border-b"
+          style={{ backgroundColor: "#2D5A3D" }}
+        >
+          <div className="max-w-content mx-auto flex flex-wrap items-center justify-between gap-4">
+            <Link
+              href="/"
+              className="text-2xl font-bold tracking-tight text-white hover:opacity-90 transition-opacity"
+            >
+              🌿 Sage
             </Link>
-            <div className="flex flex-wrap gap-4 text-lg">
+            <div className="flex flex-wrap gap-5 text-lg">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="hover:underline hover:text-blue-200 transition-colors"
+                  className="text-white/90 hover:text-white hover:underline underline-offset-4 transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -44,9 +62,18 @@ export default function RootLayout({
             </div>
           </div>
         </nav>
-        <main className="max-w-4xl mx-auto px-6 py-10">{children}</main>
-        <footer className="text-center text-gray-500 text-base py-8 border-t mt-10">
-          Made with ❤️ by David & Arthur · © 2026
+
+        <main id="main-content" className="max-w-content mx-auto px-6 py-12">
+          {children}
+        </main>
+
+        <footer className="text-center py-10 border-t mt-12" style={{ color: "#6B7280" }}>
+          <p className="text-lg">
+            🌿 <strong>Sage</strong> — AI explained by humans, for humans.
+          </p>
+          <p className="text-base mt-2">
+            Made with ❤️ by David & Arthur · © 2026
+          </p>
         </footer>
       </body>
     </html>

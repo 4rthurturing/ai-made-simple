@@ -18,7 +18,7 @@ export default function Glossary() {
     {
       term: "Prompt",
       definition:
-        "Whatever you type or say to an AI. It's just a fancy word for your question or instruction. \"What's the weather like?\" is a prompt.",
+        'Whatever you type or say to an AI. It\'s just a fancy word for your question or instruction. "What\'s the weather like?" is a prompt.',
     },
     {
       term: "LLM (Large Language Model)",
@@ -53,7 +53,7 @@ export default function Glossary() {
     {
       term: "Data",
       definition:
-        "Information. When people say AI uses \"your data,\" they mean information about you — what you type, click, or share online.",
+        'Information. When people say AI uses "your data," they mean information about you — what you type, click, or share online.',
     },
     {
       term: "The Cloud",
@@ -64,8 +64,10 @@ export default function Glossary() {
 
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-6 text-rose-700">📖 Glossary</h1>
-      <p className="text-xl text-gray-600 mb-8">
+      <h1 className="text-h1 font-bold mb-4" style={{ color: "#2D5A3D" }}>
+        📖 Glossary
+      </h1>
+      <p className="text-body-lg mb-10" style={{ color: "#6B7280" }}>
         All the AI buzzwords explained in plain English. No tech degree required.
       </p>
 
@@ -73,20 +75,25 @@ export default function Glossary() {
         {terms.map((item, index) => (
           <div
             key={index}
-            className="bg-rose-50 border border-rose-200 rounded-xl p-5"
+            className="rounded-card p-6 border-2"
+            style={{ backgroundColor: "#FDF2F8", borderColor: "#F9A8D4" }}
           >
-            <h2 className="text-xl font-bold text-rose-800 mb-1">
+            <h2 className="text-xl font-bold mb-2" style={{ color: "#9D174D" }}>
               {item.term}
             </h2>
-            <p className="text-lg leading-relaxed">{item.definition}</p>
+            <p className="text-body leading-relaxed">{item.definition}</p>
           </div>
         ))}
       </div>
 
-      <div className="bg-gray-100 rounded-xl p-6 text-center mt-8">
-        <p className="text-lg text-gray-600">
-          <strong>Don&apos;t worry about memorising these.</strong> You can always
-          come back to this page whenever you see a word you don&apos;t recognise.
+      <div
+        className="rounded-card p-8 text-center mt-10"
+        style={{ backgroundColor: "#2D5A3D", color: "white" }}
+      >
+        <p className="text-body-lg">
+          <strong>Don&apos;t worry about memorising these.</strong> You can
+          always come back to this page whenever you see a word you don&apos;t
+          recognise.
         </p>
       </div>
     </div>

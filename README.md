@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Sage — Your Friendly Guide to AI
+
+**AI explained by humans, for humans.**
+
+Sage is a web app designed to help older adults understand and feel comfortable with artificial intelligence. No jargon, no tech speak — just clear, honest explanations.
+
+## Features
+
+- **What is AI?** — Simple explanations with everyday analogies
+- **Practical Uses** — Real-world examples with prompts to try
+- **Common Fears** — Honest answers to common concerns
+- **Glossary** — Buzzwords explained in plain English
+
+## Design Principles
+
+- ♿ WCAG AAA accessibility compliance
+- 📏 Minimum 20px body text
+- 🎨 High contrast colour palette
+- 📱 Mobile-first responsive design
+- 🌿 Warm, approachable Sage green branding
+
+## Tech Stack
+
+- **Next.js 16** (React)
+- **TypeScript**
+- **Tailwind CSS**
+- **Inter** font family
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Brand Guidelines
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+See [docs/BRAND-GUIDELINES.md](docs/BRAND-GUIDELINES.md) for the complete brand package.
 
-## Learn More
+## Created By
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+David & Arthur · © 2026

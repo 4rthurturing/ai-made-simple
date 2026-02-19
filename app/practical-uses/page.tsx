@@ -60,7 +60,7 @@ export default function PracticalUses() {
       emoji: "📝",
       title: "Remembering Things",
       description:
-        "Use AI as a memory aid. It can help you organise appointments, create to-do lists, and set reminders.",
+        "Use AI as a memory aid. It can help you organise appointments, create to-do lists, and keep track of things.",
       example:
         '"Help me make a list of everything I need to do before my holiday next month."',
     },
@@ -68,10 +68,10 @@ export default function PracticalUses() {
 
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-6 text-purple-700">
+      <h1 className="text-h1 font-bold mb-4" style={{ color: "#2D5A3D" }}>
         💡 Practical Uses
       </h1>
-      <p className="text-xl text-gray-600 mb-8">
+      <p className="text-body-lg mb-10" style={{ color: "#6B7280" }}>
         Here are real, everyday ways AI can make your life easier. Each one
         includes an example of what you might say to an AI assistant.
       </p>
@@ -80,23 +80,31 @@ export default function PracticalUses() {
         {uses.map((use, index) => (
           <div
             key={index}
-            className="bg-purple-50 border border-purple-200 rounded-xl p-6"
+            className="rounded-card p-8 border-2"
+            style={{ backgroundColor: "#E8F0E9", borderColor: "#A3C3A7" }}
           >
-            <h2 className="text-2xl font-semibold mb-2">
+            <h2 className="text-h3 font-semibold mb-3" style={{ color: "#2D5A3D" }}>
               {use.emoji} {use.title}
             </h2>
-            <p className="text-xl mb-3">{use.description}</p>
-            <div className="bg-white rounded-lg p-4 text-lg italic text-purple-800">
-              {use.example}
+            <p className="text-body mb-4">{use.description}</p>
+            <div
+              className="rounded-btn p-5 text-body italic"
+              style={{ backgroundColor: "white", color: "#4A7C59" }}
+            >
+              💬 {use.example}
             </div>
           </div>
         ))}
       </div>
 
-      <div className="bg-gray-100 rounded-xl p-6 text-center mt-8">
-        <p className="text-lg text-gray-600">
-          <strong>Remember:</strong> You talk to AI just like you&apos;d talk to a
-          helpful friend. No special commands needed — just plain English.
+      <div
+        className="rounded-card p-8 text-center mt-10"
+        style={{ backgroundColor: "#2D5A3D", color: "white" }}
+      >
+        <p className="text-h3 font-semibold mb-2">Remember</p>
+        <p className="text-body-lg">
+          You talk to AI just like you&apos;d talk to a helpful friend. No
+          special commands needed — just plain English.
         </p>
       </div>
     </div>
