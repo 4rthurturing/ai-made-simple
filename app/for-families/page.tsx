@@ -2,6 +2,12 @@ import Link from "next/link";
 import Quiz from "../components/Quiz";
 import LessonNav from "../components/LessonNav";
 import { forFamiliesQuiz } from "../components/quizzes";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Helping Your Parents Understand AI | Sage",
+  description: "Want to help an older relative understand AI? Our guide for families offers tips on explaining technology with patience and clarity.",
+};
 
 export default function ForFamilies() {
   return (

@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import LearningPath from "./LearningPath";
 
 export const metadata: Metadata = {
-  title: "Learn - Sage",
-  description: "A step-by-step course to help you understand and use AI with confidence.",
+  title: "Learn About AI - Free Learning Path for Beginners | Sage",
+  description: "Start your AI learning journey here. Our step-by-step path takes you from \"what is AI?\" to using it confidently, at your own pace.",
 };
 
 export default function LearnPage() {

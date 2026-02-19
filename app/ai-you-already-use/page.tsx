@@ -4,8 +4,8 @@ import LessonNav from "../components/LessonNav";
 import { aiYouAlreadyUseQuiz } from "../components/quizzes";
 
 export const metadata: Metadata = {
-  title: "AI You Already Use - Sage",
-  description: "You probably use AI every day without knowing it. Here are the everyday examples.",
+  title: "AI You Already Use Every Day (Without Knowing) | Sage",
+  description: "You have been using AI for years without realising it. From spam filters to sat navs, discover the AI tools already in your life.",
 };
 
 export default function AIYouAlreadyUse() {

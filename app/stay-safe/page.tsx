@@ -2,6 +2,12 @@ import Link from "next/link";
 import Quiz from "../components/Quiz";
 import LessonNav from "../components/LessonNav";
 import { staySafeQuiz } from "../components/quizzes";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Is AI Safe? How to Protect Yourself Online | Sage",
+  description: "Worried about AI safety and privacy? Learn how to use AI tools safely, spot scams, and protect your personal information. Written for over-60s.",
+};
 
 export default function StaySafe() {
   return (

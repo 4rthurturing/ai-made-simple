@@ -29,3 +29,55 @@ a {
 a:hover {
   color: var(--deep-forest);
 }
+
+/* Blog article prose styles */
+.prose-sage h2 {
+  color: var(--deep-forest);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-sage h3 {
+  color: var(--deep-forest);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose-sage p {
+  margin-bottom: 1.2rem;
+}
+
+.prose-sage ul,
+.prose-sage ol {
+  margin-bottom: 1.2rem;
+  padding-left: 1.5rem;
+}
+
+.prose-sage ul {
+  list-style-type: disc;
+}
+
+.prose-sage ol {
+  list-style-type: decimal;
+}
+
+.prose-sage li {
+  margin-bottom: 0.4rem;
+}
+
+.prose-sage blockquote {
+  border-left: 4px solid var(--sage-green);
+  padding: 0.75rem 1.25rem;
+  margin: 1.2rem 0;
+  background-color: var(--light-sage);
+  border-radius: 0 0.75rem 0.75rem 0;
+  font-style: italic;
+}
+
+.prose-sage strong {
+  color: var(--deep-forest);
+}

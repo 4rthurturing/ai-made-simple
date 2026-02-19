@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "AI Glossary - Technical Terms in Plain English | Sage",
+  description: "Confused by AI jargon? Our glossary explains terms like algorithm, machine learning, and chatbot in everyday language anyone can understand.",
+};
+
 export default function Glossary() {
   const terms = [
     {

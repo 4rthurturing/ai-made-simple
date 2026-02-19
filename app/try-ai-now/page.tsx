@@ -3,8 +3,8 @@ import ChatBot from "./ChatBot";
 import LessonNav from "../components/LessonNav";
 
 export const metadata: Metadata = {
-  title: "Try AI Now - Sage",
-  description: "Chat with a friendly AI assistant and see how AI works first-hand.",
+  title: "Try AI Now - Chat with AI in a Safe Space | Sage",
+  description: "Ready to try AI for yourself? Have a conversation with our friendly chatbot in a safe, private space. No sign-up needed.",
 };
 
 export default function TryAIPage() {

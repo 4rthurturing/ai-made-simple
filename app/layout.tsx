@@ -6,9 +6,29 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sage - Your Friendly Guide to AI",
+  title: "Sage - AI Explained Simply for Older Adults",
   description:
-    "AI explained by humans, for humans. A friendly guide to understanding artificial intelligence, designed for everyone.",
+    "Learn about artificial intelligence in plain English. Sage helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.",
+  metadataBase: new URL("https://ai-made-simple-three.vercel.app"),
+  openGraph: {
+    title: "Sage - AI Explained Simply for Older Adults",
+    description:
+      "Learn about artificial intelligence in plain English. Sage helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.",
+    url: "https://ai-made-simple-three.vercel.app",
+    siteName: "Sage",
+    type: "website",
+    locale: "en_GB",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sage - AI Explained Simply for Older Adults",
+    description:
+      "Learn about artificial intelligence in plain English. Sage helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 const navLinks = [
@@ -16,7 +36,26 @@ const navLinks = [
   { href: "/learn", label: "Learn" },
   { href: "/try-ai-now", label: "Try AI" },
   { href: "/glossary", label: "Glossary" },
+  { href: "/blog", label: "Blog" },
 ];
+
+const schemaOrg = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      name: "Sage",
+      url: "https://ai-made-simple-three.vercel.app",
+      description: "AI explained simply for older adults",
+    },
+    {
+      "@type": "WebSite",
+      name: "Sage",
+      description: "AI explained simply for older adults",
+      url: "https://ai-made-simple-three.vercel.app",
+    },
+  ],
+};
 
 export default function RootLayout({
   children,
@@ -25,6 +64,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }}
+        />
+      </head>
       <body
         className={`${inter.className} min-h-screen`}
         style={{ backgroundColor: "#FAFAF5", color: "#1a1a1a" }}

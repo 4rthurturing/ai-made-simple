@@ -1,6 +1,12 @@
 import Quiz from "../components/Quiz";
 import LessonNav from "../components/LessonNav";
 import { practicalUsesQuiz } from "../components/quizzes";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Practical Uses of AI in Everyday Life | Sage",
+  description: "Discover how AI can help with everyday tasks like writing letters, planning meals, and finding information. Practical tips for older adults.",
+};
 
 export default function PracticalUses() {
   const uses = [
