@@ -4,7 +4,11 @@ export const article = {
   description: "Use AI to create recipes from what you have, adjust portions, and handle dietary needs, with practical prompts and tips.",
   date: "2026-02-19",
   keywords: ["AI recipe generator", "ask ChatGPT for recipes", "AI cooking help"],
-  body: `<p>Cooking can feel like a puzzle, especially when the fridge is half full and you aren't sure what goes together. AI can help you turn those odds and ends into a proper meal.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> AI can help you turn the ingredients you already have into practical recipes, adjust portion sizes, and handle dietary needs. This article shows how to start with a clear list of what is in your fridge, then ask for a simple recipe with steps and a time limit. It explains that AI is good at ingredient swaps and scaling, but you should read the recipe before cooking and use common sense about timings and food safety. It also suggests using AI for meal planning and shopping lists, and for tailoring recipes to low salt or gluten free needs. You can ask for swaps that fit a small UK supermarket if needed. The key message is to treat AI like a cookery book that talks back: use it for ideas, then adapt to your kitchen and taste.</p>
+</div>
+
+<p>Cooking can feel like a puzzle, especially when the fridge is half full and you aren't sure what goes together. AI can help you turn those odds and ends into a proper meal.</p>
 
 <p>You still do the cooking, but the AI can save you time and spark ideas you might not have thought of.</p>
 

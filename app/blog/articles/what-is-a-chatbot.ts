@@ -4,7 +4,11 @@ export const article = {
   description: "Chatbots are everywhere, but what are they exactly? This plain English guide explains what chatbots do, where you'll find them, and when to trust them.",
   date: "2026-03-12",
   keywords: ["what is a chatbot", "chatbot explained", "difference between chatbot and AI"],
-  body: `
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This plain English guide explains what a chatbot is and where you meet them online. A chatbot is a program that chats by text, ranging from basic scripted helpers to smarter AI powered ones. The article lists common places you will see chatbots, such as bank websites, online shops, the NHS 111 service, energy companies, and council sites. It clarifies the difference between chatbots and ChatGPT: chatbots are usually single purpose, while ChatGPT is a general assistant trained on lots of text. It offers advice on when to trust a chatbot and when to ask for a real person, especially for complex, sensitive, or money related issues. It notes that chatbots are often the first line of support and you can request a human if you are stuck. The key message is that chatbots are useful for simple tasks but have limits, and you can always request a human agent.</p>
+</div>
+
+
 <p>You've probably used a chatbot without realising it. Visited a website and a little box popped up in the corner asking "How can I help?" That's a chatbot. And they're everywhere now.</p>
 
 <p>But what actually is a chatbot? Is it the same as AI? Can you trust what it tells you? And when should you just ask for a real person instead?</p>

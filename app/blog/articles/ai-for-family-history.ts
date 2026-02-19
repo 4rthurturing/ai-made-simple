@@ -4,7 +4,11 @@ export const article = {
   description: "Use AI to organise family history notes, draft stories, and plan research, with gentle prompts and tips.",
   date: "2026-02-19",
   keywords: ["AI family history", "ChatGPT genealogy", "AI help family tree"],
-  body: `<p>Family history research can be fascinating, but it can also feel like a maze of dates, places, and old handwriting. AI can help you organise what you find and turn facts into stories.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> AI can support family history research by organising your notes, turning facts into timelines, and drafting warm short stories you can edit. This article explains that AI cannot access private records, but it can suggest what to search next, create question lists for relatives, and clarify old terms. It advises starting with the basics you already know, then feeding short facts to the AI. It stresses accuracy: avoid inventing details, label guesses, and double check dates and spellings. There are tips for organising files, naming scans, and keeping living relatives' privacy in mind. It also suggests using AI to explain census records or old occupations in plain English. The overall message is to use AI as a tidy, patient assistant that helps you plan and write while you remain the historian and fact checker.</p>
+</div>
+
+<p>Family history research can be fascinating, but it can also feel like a maze of dates, places, and old handwriting. AI can help you organise what you find and turn facts into stories.</p>
 
 <p>It can't access private records, but it can guide your research and help you make sense of what you already have.</p>
 

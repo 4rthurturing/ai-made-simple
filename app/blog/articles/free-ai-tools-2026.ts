@@ -4,7 +4,11 @@ export const article = {
   description: "A plain English roundup of the best free AI tools in 2026, including ChatGPT, Claude, Gemini, Copilot, and Perplexity.",
   date: "2026-02-19",
   keywords: ["free AI tools 2026", "best free AI", "free ChatGPT alternatives"],
-  body: `<p>Free AI tools have improved a lot, and there are now several strong options you can use without paying. The trick is to choose the tool that matches what you need.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This roundup explains the best free AI tools in 2026 and how to choose among them. It covers ChatGPT as the most familiar all rounder, Claude for calm writing and summaries, Gemini for people already in Google services, Microsoft Copilot for a familiar Windows style experience, and Perplexity for research style answers with sources. The article says the free tiers are enough for most beginners and suggests starting with the task you need help with rather than the brand. It also explains common free tier limits and advises writing clear prompts to get the most value. Privacy guidance is included: avoid sharing sensitive information and use placeholders. It also suggests keeping notes of which login you used. The main takeaway is to try each tool briefly, keep the one that feels easiest, and use a second tool for comparison when you need it.</p>
+</div>
+
+<p>Free AI tools have improved a lot, and there are now several strong options you can use without paying. The trick is to choose the tool that matches what you need.</p>
 
 <p>Below is a plain English roundup of the best free AI tools in 2026 for beginners.</p>
 

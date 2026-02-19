@@ -4,7 +4,11 @@ export const article = {
   description: "Learn how AI can help you draft letters and emails, from thank-you notes to formal complaints, with tips and copy-paste prompts.",
   date: "2026-02-19",
   keywords: ["AI help writing letters", "ChatGPT write email", "AI letter writing"],
-  body: `<p>Writing a letter can feel oddly stressful. You know what you want to say, but the first sentence won't come out, and the whole thing starts to feel too formal or too sharp.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> AI can help you draft letters and emails when you feel stuck, from thank you notes to formal complaints. This guide explains that AI is strongest at structure and tone, so you should tell it who the letter is for, the outcome you want, and whether the tone should be friendly, formal, or firm. It encourages you to edit the draft so it sounds like you and to add personal details for authenticity. It also warns not to include sensitive information like addresses, account numbers, or passwords, using placeholders instead. Practical tips include asking for shorter versions, bullet points, or alternative tones, and checking names and dates before sending. You can even ask for three versions and pick the one that feels right. The main idea is that AI gives you a clean first draft, while you keep control of the final message.</p>
+</div>
+
+<p>Writing a letter can feel oddly stressful. You know what you want to say, but the first sentence won't come out, and the whole thing starts to feel too formal or too sharp.</p>
 
 <p>AI can help you get a clean first draft without taking over your voice. Think of it as a polite neighbour who puts your thoughts into order, then hands the pen back to you.</p>
 

@@ -4,7 +4,11 @@ export const article = {
   description: "AI voice cloning scams are on the rise. Learn how to recognise a fake voice call, what the warning signs are, and what to do if you get one.",
   date: "2026-03-05",
   keywords: ["AI voice scams", "deepfake phone call", "how to spot AI scam"],
-  body: `
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This article focuses on AI voice cloning scams, especially the grandparent scam, and shows how to spot and stop them. It explains how voice cloning works from short audio clips and why scammers create urgency and secrecy. Red flags include odd payment methods, voices that sound slightly off, fake background noise, and callers who cannot answer personal questions. The safest response is to hang up and call the person back on a known number, then tell someone else and report the incident. It recommends setting a family code word and being careful about posting voice clips on social media. The guide also notes that scams can happen via voicemail or video and that there is no shame in being targeted. The main answer is to stay calm, verify, and report to protect yourself and others.</p>
+</div>
+
+
 <p>Your phone rings. It sounds like your grandson. He's panicking, says he's been in an accident, needs money urgently. Your instinct is to help. That's what any caring grandparent would do.</p>
 
 <p>But what if it wasn't actually your grandson?</p>

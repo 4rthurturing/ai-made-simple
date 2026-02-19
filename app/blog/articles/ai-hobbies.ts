@@ -4,7 +4,11 @@ export const article = {
   description: "From gardening to genealogy, AI tools like ChatGPT can give your hobbies a boost. Here's how to use them for practical, everyday things you enjoy.",
   date: "2026-04-02",
   keywords: ["AI for gardening", "AI for cooking", "AI practical uses everyday"],
-  body: `
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> AI can boost everyday hobbies by offering ideas, explanations, and plans without needing technical skills. The article walks through examples for gardening, cooking, family history, knitting or sewing, travel planning, reading recommendations, and photography. It shows how detailed questions produce better answers, such as giving your location, ingredients, or skill level. AI can explain old terms in genealogy, convert recipe measurements, suggest plant companions, or help plan a trip, but it cannot access private records or local conditions. The key message is to use AI as a helpful companion that fills gaps and saves time, while you apply your own judgement and verify anything important. It encourages curiosity, follow up questions, and small experiments for enjoyable, practical results. You can also ask for step by step instructions or simple routines. Used lightly, AI adds ideas without replacing your experience.</p>
+</div>
+
+
 <p>AI doesn't have to be about work or serious stuff. It's actually brilliant for hobbies. Whether you're into gardening, cooking, family history, or knitting, there are ways AI can make things easier, more interesting, or just a bit more fun.</p>
 
 <p>You don't need to be technical. If you can type a question, you can use AI for your hobbies. Here are some practical examples to get you started.</p>

@@ -4,7 +4,11 @@ export const article = {
   description: "Use AI as a patient tutor for languages, hobbies, and computing, with prompts and practical study tips.",
   date: "2026-02-19",
   keywords: ["learn with AI", "AI tutor", "use ChatGPT to learn"],
-  body: `<p>Learning something new can feel daunting, but AI can be a gentle helper. It doesn't judge you if you ask the same question twice, and it can explain things in different ways.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> AI can act as a patient tutor for learning new skills, from languages to hobbies or basic computing. The article recommends setting a clear goal, such as beginner Spanish for travel, then asking AI to build a simple plan with small lessons and quizzes. It explains how to use AI for feedback on writing or language practice and how to ask for examples, shorter explanations, or different levels. A key theme is combining AI guidance with real practice and keeping momentum with tiny weekly goals. It also suggests using familiar examples from your own life to make learning stick and asking for short recap notes after each session. Aim for a regular routine, even if it is just ten minutes. The takeaway: AI helps you structure learning and stay motivated, but progress still comes from regular practice.</p>
+</div>
+
+<p>Learning something new can feel daunting, but AI can be a gentle helper. It doesn't judge you if you ask the same question twice, and it can explain things in different ways.</p>
 
 <p>Whether you want to learn a language, pick up a hobby, or understand a bit of computing, AI can guide you step by step.</p>
 

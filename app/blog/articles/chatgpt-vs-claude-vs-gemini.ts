@@ -4,7 +4,11 @@ export const article = {
   description: "A friendly, honest comparison of ChatGPT, Claude, and Gemini, with strengths, access tips, and which to start with.",
   date: "2026-02-19",
   keywords: ["ChatGPT vs Claude", "best AI for beginners", "ChatGPT vs Gemini comparison"],
-  body: `<p>There are now several big AI tools, and it can be hard to know where to start. ChatGPT, Claude, and Gemini are the names you hear most often, but they aren't the same.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This comparison explains the practical differences between ChatGPT, Claude, and Google Gemini for everyday use. ChatGPT is presented as the most flexible all rounder with the largest collection of beginner guides, making it the easiest place to start. Claude is described as calm and careful, often strong at summarising long text and producing tidy writing. Gemini is Google's assistant and can feel convenient if you already use Google services. The article notes that all three have free versions with limits, and that the best way to choose is to ask the same questions in each tool and compare tone and usefulness. It also reminds you that any AI can be wrong and that you should avoid sharing personal data. The main takeaway: start with ChatGPT, then try Claude and Gemini to see which feels best.</p>
+</div>
+
+<p>There are now several big AI tools, and it can be hard to know where to start. ChatGPT, Claude, and Gemini are the names you hear most often, but they aren't the same.</p>
 
 <p>This guide keeps it simple. It isn't about tech specs, it's about what each tool feels like in everyday use.</p>
 

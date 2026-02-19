@@ -4,7 +4,11 @@ export const article = {
   description: "Confused by AI jargon? This plain English guide explains 20 common AI terms including algorithm, machine learning, LLM, and more. No tech speak.",
   date: "2026-05-07",
   keywords: ["AI glossary", "AI terms explained", "what does LLM mean"],
-  body: `
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This article is a plain English glossary of 20 common AI terms so you can follow news and conversations without feeling lost. It explains basics like algorithm, artificial intelligence, machine learning, neural networks, deep learning, large language models, and generative AI. It also defines practical terms such as prompt, chatbot, hallucination, training data, deepfake, and natural language processing, plus broader ideas like bias, automation, bots, cloud computing, data privacy, open source, and the concept of AGI. Each definition is short and non technical, using everyday comparisons. The takeaway is that you do not need to memorise everything; this page is a simple reference you can return to whenever a term appears in the news or a conversation. It is especially useful when headlines assume you already know the jargon. It also points to further learning if you want more depth.</p>
+</div>
+
+
 <p>AI comes with a lot of jargon. Terms get thrown around on the news and in conversation as if everyone knows what they mean. Most people don't, and that's completely fine.</p>
 
 <p>Here are 20 AI terms explained in plain English. No technical background needed. Just straightforward definitions you can actually use.</p>

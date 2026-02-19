@@ -4,7 +4,11 @@ export const article = {
   description: "ChatGPT is useful, but there are things you should never type into it. This safety guide explains what to keep private and why it matters.",
   date: "2026-04-09",
   keywords: ["what not to tell ChatGPT", "ChatGPT privacy", "is ChatGPT safe to use"],
-  body: `
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This safety guide explains what you should never share with ChatGPT and why. It lists high risk items such as your full name with address, bank details, NHS or National Insurance numbers, passwords, and photos of documents. It also highlights information that seems harmless but can be sensitive, like exact routines, full names of children, and precise locations. The article explains that conversations are stored and may be used for training, and notes the setting that lets you turn off data sharing for future chats. It clarifies what is safe to share: general context like your age range or interests. For health questions, it advises keeping details general and speaking to a GP for personal advice. The main takeaway is to treat ChatGPT like a public space and keep identifying information out of it.</p>
+</div>
+
+
 <p>ChatGPT is a brilliant tool. But it's not a private conversation. The things you type into it are stored, and they could be used to train future versions of the software. That doesn't mean you shouldn't use it. It just means you should be thoughtful about what you share.</p>
 
 <p>Here's a straightforward guide to what you should keep to yourself.</p>

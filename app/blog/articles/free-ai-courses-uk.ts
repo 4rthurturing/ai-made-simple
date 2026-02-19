@@ -4,7 +4,11 @@ export const article = {
   description: "A curated list of genuinely free AI courses, guides, and learning resources for older adults in the UK. No sales pitches, just helpful links.",
   date: "2026-04-23",
   keywords: ["free AI courses seniors UK", "learn AI free", "AI classes for older adults"],
-  body: `
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This article curates genuinely free AI learning options in the UK aimed at older adults. It highlights online courses such as Elements of AI, Google AI Essentials, FutureLearn introductions, and OpenLearn by the Open University. It also points to accessible guides from the BBC, Age UK, and Good Things Foundation, plus the Sage AI learning path. For in person learning, it suggests local libraries, U3A groups, Digital Unite workshops, and Learn My Way for foundational digital skills. The guide recommends YouTube channels like Simplilearn and BBC Click for visual learners. It warns about hidden paywalls, sales pitches, overly technical content, and outdated courses. A simple start plan is provided: read a plain English overview, try ChatGPT basics, then take a structured course. The main answer is that you can learn AI for free with reputable, beginner friendly resources.</p>
+</div>
+
+
 <p>Want to learn more about AI but don't fancy spending money on it? Fair enough. There are plenty of genuinely free resources out there, and some of them are really good.</p>
 
 <p>The tricky bit is sorting the useful ones from the sales pitches. So we've done that for you. Everything on this list is free, available in the UK, and suitable for people who aren't already tech experts.</p>

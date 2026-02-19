@@ -4,7 +4,11 @@ export const article = {
   description: "Learn how to use ChatGPT from scratch. This beginner-friendly guide walks you through signing up, typing your first question, and getting useful answers.",
   date: "2026-02-19",
   keywords: ["how to use ChatGPT", "ChatGPT for seniors", "ChatGPT beginners guide"],
-  body: `
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This step by step guide shows complete beginners how to start using ChatGPT. It explains what ChatGPT is, what you need to begin, and how to sign up at chat.openai.com with an email address. It walks through typing a first question, asking follow ups, and using it for tasks like explanations, letters, recipes, and trip planning. The article shares tips for better answers, such as adding context, asking for shorter versions, and changing tone. It also covers safety: do not share personal details like addresses, bank info, or NHS numbers, and remember ChatGPT can be wrong, especially with recent facts. It notes how to start a new conversation and that there is a mobile app. The key takeaway is that you can not break it, so just try a simple question and learn by doing.</p>
+</div>
+
+
 <p>You've heard people talking about ChatGPT. Maybe your grandchildren mentioned it, or you saw it on the BBC. But what actually <em>is</em> it, and how do you get started?</p>
 
 <p>ChatGPT is a free tool you can use on your computer, tablet, or phone. You type a question or request, and it writes back to you. Think of it like having a very patient helper who never gets tired of your questions. It won't judge you, and you can't break it.</p>

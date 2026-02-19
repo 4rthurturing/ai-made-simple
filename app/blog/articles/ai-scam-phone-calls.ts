@@ -4,7 +4,11 @@ export const article = {
   description: "Learn how AI voice cloning scams work in 2026, warning signs, and simple steps to protect yourself and family.",
   date: "2026-02-19",
   keywords: ["AI scam phone calls", "AI voice cloning scam", "how to spot AI scam calls"],
-  body: `<p>AI voice cloning has made scam phone calls more convincing. You might hear a voice that sounds like a relative or a trusted company, and it can be unsettling.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This article explains how AI voice cloning makes scam phone calls sound like trusted people and outlines practical defences. It describes how scammers use short audio clips to mimic voices, then create urgency to pressure victims into sending money. Warning signs include secrecy, requests for gift cards or transfers, strange timing, and refusal to answer basic questions. The guide recommends hanging up and calling back on a trusted number, using a family code word, and keeping social media audio limited. It suggests creating a simple family safety plan and writing a short script to use during suspicious calls. If targeted, you should contact your bank and report the incident to Action Fraud. It also suggests keeping voicemail greetings short. The key message is to slow down, verify independently, and never send money based on a single call.</p>
+</div>
+
+<p>AI voice cloning has made scam phone calls more convincing. You might hear a voice that sounds like a relative or a trusted company, and it can be unsettling.</p>
 
 <p>The good news is that there are simple ways to protect yourself and your family. This guide explains what to look for and what to do.</p>
 

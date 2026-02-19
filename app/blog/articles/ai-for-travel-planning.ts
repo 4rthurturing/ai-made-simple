@@ -4,7 +4,11 @@ export const article = {
   description: "Use AI to build holiday itineraries, packing lists, and trip ideas, with practical prompts and safety tips for beginners.",
   date: "2026-02-19",
   keywords: ["AI travel planner", "ChatGPT plan my holiday", "AI help plan trip"],
-  body: `<p>Planning a holiday is exciting, but it can also feel overwhelming. There are dates to juggle, budgets to consider, and about a hundred tabs open on your browser.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> AI can simplify holiday planning by drafting itineraries, suggesting places to visit, and creating packing lists or rainy day options. The article advises giving dates, budget, travel style, and mobility needs to get a usable plan. It stresses that AI should be used for research, not booking, and that you must verify opening hours, prices, and transport details on official sites. It also recommends asking for a slower pace if you want fewer activities per day. Privacy tips include keeping passport and booking details out of chats. It encourages checking accessibility needs and double checking travel times before finalising plans. It also suggests checking whether attractions need advance tickets. The overall answer: AI is a fast planning assistant that helps you compare options and organise your ideas, but you still check the facts and make the final decisions.</p>
+</div>
+
+<p>Planning a holiday is exciting, but it can also feel overwhelming. There are dates to juggle, budgets to consider, and about a hundred tabs open on your browser.</p>
 
 <p>AI can help you organise the chaos. It won't book the trip for you, but it can create a clear plan and give you ideas faster.</p>
 

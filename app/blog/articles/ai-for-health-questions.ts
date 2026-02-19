@@ -4,7 +4,11 @@ export const article = {
   description: "A clear, friendly guide to asking AI about health questions, what is safe, and when to seek professional help.",
   date: "2026-02-19",
   keywords: ["can I ask AI health questions", "ChatGPT medical advice", "AI health information safe"],
-  body: `<p>It's tempting to ask AI about health, especially when you're worried at night and don't want to bother anyone. It can be useful for simple explanations, but it isn't a doctor.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> You can ask AI about health topics, but only for general understanding. This article explains safe uses, such as translating medical terms, preparing questions for a GP, or summarising your symptoms without personal details. It warns that AI cannot diagnose, replace a doctor, or tell you to stop medication, and it can be wrong. For urgent or worrying symptoms, you should contact NHS 111 or your GP. The guide suggests verifying claims with trusted sources like the NHS and keeping sensitive information private by using placeholders. It also offers prompts for explanations, appointment prep, and lifestyle tips. The article recommends writing a short symptom summary you can take to your appointment. It also stresses not delaying care because an AI reply sounds reassuring. The main answer is: use AI as a starting point and an organiser, not as medical advice.</p>
+</div>
+
+<p>It's tempting to ask AI about health, especially when you're worried at night and don't want to bother anyone. It can be useful for simple explanations, but it isn't a doctor.</p>
 
 <p>This guide explains what AI can help with, where it's risky, and when you should speak to a professional.</p>
 

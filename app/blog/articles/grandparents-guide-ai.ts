@@ -4,7 +4,11 @@ export const article = {
   description: "Your grandchildren use AI every day, from Snapchat to homework tools. Here's what they're actually doing, explained so you can have informed conversations.",
   date: "2026-04-30",
   keywords: ["AI children use", "explain AI to grandparents", "AI apps young people"],
-  body: `
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This guide helps grandparents understand how young people use AI in everyday apps and schoolwork. It explains Snapchat's My AI chatbot, TikTok's recommendation algorithm, AI homework helpers like ChatGPT or Gemini, and the role of AI in gaming. It also covers AI image generators and voice assistants such as Siri, Alexa, and Google Assistant. The article offers conversation starters that focus on curiosity rather than worry and suggests asking grandchildren to demonstrate tools, which builds trust and understanding. It notes risks such as misinformation, filter bubbles, and improper homework use, and reminds readers to discuss privacy and honesty about AI use in school. It also encourages gentle reminders to check sources and not share personal details. The main point is that AI is woven into young people's digital lives, and informed, calm conversations are the best way to guide them.</p>
+</div>
+
+
 <p>Your grandchildren live in a world where AI is just... there. They don't think of it as special or scary. It's woven into the apps they use, the games they play, and even the way they do homework. To them, it's as normal as television was to your generation.</p>
 
 <p>That can make it hard to have a conversation about it. They might not even realise they're using AI, or they might assume you won't understand. This guide is here to bridge that gap, so you can ask good questions and understand what's going on.</p>

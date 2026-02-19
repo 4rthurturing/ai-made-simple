@@ -4,7 +4,11 @@ export const article = {
   description: "Could AI help with loneliness? We look at AI companions honestly, exploring what they can and can't do, and why human connection still matters most.",
   date: "2026-04-16",
   keywords: ["AI help with loneliness", "AI companion elderly", "chatbot for companionship"],
-  body: `
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> AI companions are chatbots designed for conversation and company, and this article weighs their benefits and limits for loneliness. It explains that tools like ElliQ, Replika, or character apps can provide routine chats, reminders, jokes, and a sense of company, which may ease isolation between human interactions. However, the article is clear that AI does not truly care or understand you, and over reliance can be unhealthy. It highlights risks such as emotional dependency, privacy concerns, and subscription costs. It also stresses what AI cannot replace: real human contact, shared experiences, and physical presence. The guide suggests viewing AI as a supplement, not a substitute, and offers real world alternatives like Age UK services, U3A groups, and community activities. It encourages awareness about what you share emotionally. The main answer is balanced: AI can help a bit, but people matter most.</p>
+</div>
+
+
 <p>Loneliness is one of the biggest health challenges facing older adults in the UK. Around 1.4 million older people describe themselves as often lonely, according to Age UK. It's a real problem, and it affects both mental and physical health.</p>
 
 <p>So when companies start marketing AI companions, chatbots that can have conversations with you, remember your preferences, and always be available, it raises some big questions. Can a chatbot actually help with loneliness? Is it healthy? And where's the line between useful tool and poor substitute?</p>

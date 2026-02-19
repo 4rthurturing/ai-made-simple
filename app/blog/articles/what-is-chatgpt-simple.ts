@@ -4,7 +4,11 @@ export const article = {
   description: "A plain English explanation of what ChatGPT is, what it can do, and what it can't, with simple examples.",
   date: "2026-02-19",
   keywords: ["what is ChatGPT simply explained", "ChatGPT for beginners", "what is ChatGPT in simple terms"],
-  body: `<p>If you have heard people talk about ChatGPT and felt a bit lost, you aren't alone. It sounds technical, but it's actually simple once you see it in action.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This article answers the basic question, what is ChatGPT, in simple terms. It explains that ChatGPT is a chat box style AI tool that replies in ordinary language and can help with writing, explanations, and planning. It also clarifies what ChatGPT is not: it is not a human, it does not know your personal life, and it can make confident mistakes. The guide gives example prompts for letters, recipes, trips, and summaries, and shows how to improve answers by adding context, changing tone, or asking for shorter versions. It emphasises safety, advising you not to share passwords, bank details, or full addresses and to verify important facts. It encourages small first experiments to build confidence. The main takeaway is that ChatGPT is a patient helper for everyday word based tasks, and you stay in control by checking and editing its output.</p>
+</div>
+
+<p>If you have heard people talk about ChatGPT and felt a bit lost, you aren't alone. It sounds technical, but it's actually simple once you see it in action.</p>
 
 <p>ChatGPT is a tool you can type into, like a chat box. You ask a question or give it a task, and it replies in ordinary language. Think of it as a very patient helper who doesn't get tired.</p>
 

@@ -4,7 +4,11 @@ export const article = {
   description: "Not sure what to use ChatGPT for? Here are 10 practical, everyday things you can ask it right now, with the exact prompts to copy and paste.",
   date: "2026-02-26",
   keywords: ["what can ChatGPT do", "ChatGPT prompts for seniors", "practical uses of ChatGPT"],
-  body: `
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This article offers ten practical ideas for what to ask ChatGPT, aimed at people who are not sure how to start. Examples include drafting letters and complaints, explaining complex topics in plain English, planning meals with ingredients you already have, writing card messages, understanding bills, planning trips, summarising long articles, practising a language conversation, generating gift ideas, and crafting polite but firm emails. Each use case comes with sample prompts you can copy and adjust. The article also reminds you to avoid sharing sensitive details and to double check important facts, since ChatGPT can be wrong. It encourages trying different tones and asking for shorter versions until the answer feels right. The main answer is that ChatGPT is most useful for everyday writing, planning, and explanations, and you get better results when you are specific about tone, length, and context.</p>
+</div>
+
+
 <p>So you've signed up for ChatGPT. You're looking at that empty text box. And you're thinking... what do I actually ask it?</p>
 
 <p>Fair enough. It's a bit like being handed the keys to a very fancy car and not knowing where to drive. The possibilities are so open-ended that it can feel overwhelming.</p>

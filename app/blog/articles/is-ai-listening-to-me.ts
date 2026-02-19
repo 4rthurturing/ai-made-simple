@@ -4,7 +4,11 @@ export const article = {
   description: "A balanced, friendly look at AI and privacy, why it can feel like your phone listens, and simple steps to feel safer.",
   date: "2026-02-19",
   keywords: ["is AI listening to me", "AI privacy myths", "is my phone listening"],
-  body: `<p>You might have wondered if your phone is listening to you, especially after an advert pops up for something you just talked about. It's a common worry.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This article tackles the common worry that your phone is listening to you. It explains that most targeted ads come from tracking your searches, apps, and browsing data rather than secret microphone recordings. It notes that smart speakers listen for a wake word and may record after that, so reviewing and deleting recordings can help. AI is involved in analysing data, which is why ads feel personal, but you can reduce tracking by adjusting app permissions, turning off microphone access when it is not needed, and changing ad personalisation settings on Google, Apple, or Facebook. It also reminds readers that AI chat tools respond to what you type, not what your microphone hears. It suggests checking privacy labels in app stores and turning off voice assistants you do not use. The main answer is that privacy concerns are real but manageable with simple settings and habits.</p>
+</div>
+
+<p>You might have wondered if your phone is listening to you, especially after an advert pops up for something you just talked about. It's a common worry.</p>
 
 <p>AI doesn't magically listen to your conversations by itself. The bigger issue is how apps collect data and how ads are targeted.</p>
 

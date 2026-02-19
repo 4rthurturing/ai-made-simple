@@ -4,7 +4,11 @@ export const article = {
   description: "A clear guide to how children use AI, the benefits, the risks, and how to talk about it with confidence.",
   date: "2026-02-19",
   keywords: ["grandchildren using AI", "kids and AI safety", "what are children doing with AI"],
-  body: `<p>If you have grandchildren, you may have seen them using AI for schoolwork, creativity, or just curiosity. It can feel confusing, especially if you aren't using it yourself.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This guide explains how children and teenagers use AI for homework help, ideas, writing practice, and creative projects, and how grandparents can talk about it with confidence. It highlights benefits such as patient explanations and curiosity, while warning that AI can be wrong and can encourage copying if not used carefully. Privacy is a major concern: children should avoid sharing personal details or photos. The article offers conversation starters and suggests setting simple family rules like checking answers, using AI for practice not final work, and being honest about AI use in school. It encourages learning together by asking grandchildren to demonstrate how they use AI, which keeps discussions calm and builds trust. It also suggests modelling good habits, such as checking sources and editing drafts. The overall message is curiosity plus clear boundaries.</p>
+</div>
+
+<p>If you have grandchildren, you may have seen them using AI for schoolwork, creativity, or just curiosity. It can feel confusing, especially if you aren't using it yourself.</p>
 
 <p>This guide explains what children and teenagers are using AI for, what to watch out for, and how to talk about it calmly.</p>
 

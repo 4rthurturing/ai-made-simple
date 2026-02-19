@@ -4,7 +4,11 @@ export const article = {
   description: "Learn how to ask better AI questions with clear examples, practical tips, and copy-paste prompts for beginners.",
   date: "2026-02-19",
   keywords: ["how to prompt AI", "AI prompts for beginners", "how to talk to ChatGPT"],
-  body: `<p>Talking to AI isn't like programming. You don't need special words. You just need to explain what you want in a clear, friendly way.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This beginner guide explains how to talk to AI by using clear, natural language rather than technical commands. It recommends stating the goal, who the answer is for, the tone, and any limits like word count or budget. The article contrasts vague prompts with better ones, provides copy and paste examples, and encourages follow up questions to shorten, simplify, or add examples. It reminds readers that AI can be wrong, especially for health, money, or legal topics, so verification matters. A simple prompt formula is provided, along with tips on asking for specific formats like bullet points or checklists. It also suggests giving a small example and restarting a chat if the conversation gets messy. You can ask the AI to list steps or make a short summary if needed. The main answer is that good results come from clarity and iteration, not from special jargon.</p>
+</div>
+
+<p>Talking to AI isn't like programming. You don't need special words. You just need to explain what you want in a clear, friendly way.</p>
 
 <p>This guide shows how to ask good questions, with examples you can borrow.</p>
 

@@ -4,7 +4,11 @@ export const article = {
   description: "Deepfake photos and videos are getting harder to spot. Learn what to look for, with practical tips for telling real from fake.",
   date: "2026-03-26",
   keywords: ["how to spot a deepfake", "fake AI images", "deepfake detection"],
-  body: `
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This article teaches practical ways to spot deepfake photos and videos. For images, it recommends checking hands, teeth, ears, jewellery, hair edges, and background details for odd shapes or garbled text, plus looking for overly smooth skin. For videos, watch lip sync, blinking patterns, edge flicker around the face, and lighting inconsistencies. The guide advises using a zoom in test, because errors often appear at close range. It explains why deepfakes matter for scams, misinformation, and personal abuse, and stresses not sharing suspected fakes even to debunk them. Instead, report scam content to platforms and to Action Fraud, and verify surprising claims with trusted sources like BBC Verify or Full Fact. It also recommends asking where a clip came from before believing it. The core message is to pause, check, and treat shocking content with scepticism.</p>
+</div>
+
+
 <p>You've probably seen a photo online that looked real but felt... off. Maybe it was a celebrity saying something they'd never say. Or a politician in a situation that seemed unlikely. These are often deepfakes, and they're getting more convincing by the month.</p>
 
 <p>A deepfake is a photo, video, or audio clip that's been created or altered using AI to look and sound like a real person. The technology behind it is impressive in a technical sense, but it's also being used to spread misinformation, run scams, and cause confusion.</p>

@@ -4,7 +4,11 @@ export const article = {
   description: "AI is being used in the NHS right now, from spotting cancer to managing waiting lists. Here's what's actually happening and what it means for you as a patient.",
   date: "2026-03-19",
   keywords: ["AI NHS", "artificial intelligence healthcare UK", "AI and your GP"],
-  body: `
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This guide explains how AI is already used in the NHS and what that means for patients. It describes AI reading scans to flag issues for radiologists, including breast cancer screening and retinal analysis, while emphasising that doctors make the final decisions. It covers AI behind the NHS App and 111 Online symptom checking, plus tools that help manage appointments and reduce waiting lists. It also notes AI support for GP admin, such as transcription and triage, and research uses like analysing large datasets to speed up discovery. Privacy is addressed: NHS systems use anonymised data and must follow UK GDPR and ethics checks. It also mentions AI helping predict missed appointments so reminders can be targeted. The main takeaway is that AI is a behind the scenes helper that can improve speed and accuracy, not a replacement for your doctor.</p>
+</div>
+
+
 <p>When people hear "AI in healthcare," they sometimes imagine robots doing surgery or computers replacing their GP. The reality is much less dramatic. And much more useful.</p>
 
 <p>AI is already working quietly inside the NHS, helping doctors spot diseases earlier, reducing waiting times, and making the whole system a bit more efficient. You've probably benefited from it without even knowing.</p>

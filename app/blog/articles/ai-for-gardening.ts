@@ -4,7 +4,11 @@ export const article = {
   description: "A beginner friendly guide to using AI for gardening tips, seasonal advice, plant care, and pest control.",
   date: "2026-02-19",
   keywords: ["AI gardening tips", "ChatGPT gardening help", "AI plant care"],
-  body: `<p>Gardening is full of small questions. Is this plant too much sun, is the soil too dry, and what is that tiny insect on the leaves. AI can be a handy helper when you want quick guidance.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> AI can be a handy gardening helper for quick, plain English advice on plant care, seasonal tasks, and pest problems. The article explains that you get better results when you give your location, month, and whether a plant is in the ground or a pot. It suggests using AI for planning beds, choosing low maintenance plants, and building simple routines, while remembering local conditions like soil, wind, and sunlight matter most. Photo analysis tools can offer clues, but you should verify with a garden centre or book. It provides example prompts for sowing, soil improvement, and gentle pest control. It also encourages keeping notes and testing one plant before buying many. Seasonal advice changes quickly, so mention the month. The key takeaway is to use AI as a starting point, test ideas with one plant first, and keep expectations realistic.</p>
+</div>
+
+<p>Gardening is full of small questions. Is this plant too much sun, is the soil too dry, and what is that tiny insect on the leaves. AI can be a handy helper when you want quick guidance.</p>
 
 <p>It won't replace local knowledge or a good garden centre, but it can save you time and help you learn as you go.</p>
 

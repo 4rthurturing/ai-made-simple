@@ -4,7 +4,11 @@ export const article = {
   description: "A light, friendly guide to using AI for crossword hints and puzzle practice without spoiling the fun.",
   date: "2026-02-19",
   keywords: ["AI crossword help", "ChatGPT crossword clues", "AI puzzle solver"],
-  body: `<p>Crosswords and puzzles are meant to be fun, but some clues can drive you up the wall. AI can help with hints without spoiling the whole thing.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> AI can help with crosswords and puzzles by giving hints, synonyms, and explanations of wordplay rather than full answers. The article shows how to ask for nudges, anagram help, or cryptic clue explanations so you keep the fun. It suggests using AI to practise: generate a daily clue, learn common abbreviations, and build themed word lists. It also recommends asking AI to confirm your reasoning after you solve a clue. The key message is to use AI as a gentle helper, not a spoiler, and to keep control by asking for hints first and answers only as a last resort. It also encourages learning clue types so you rely on AI less over time. That keeps the challenge yours. With a light routine and curiosity about clue patterns, you can improve over time and enjoy puzzles more.</p>
+</div>
+
+<p>Crosswords and puzzles are meant to be fun, but some clues can drive you up the wall. AI can help with hints without spoiling the whole thing.</p>
 
 <p>Think of it as a friend who gives you a nudge rather than the full answer.</p>
 

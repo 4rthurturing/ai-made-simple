@@ -4,7 +4,11 @@ export const article = {
   description: "Seven common beginner mistakes with AI and simple fixes, with examples and prompts you can try.",
   date: "2026-02-19",
   keywords: ["AI mistakes beginners", "ChatGPT tips for beginners", "common AI mistakes"],
-  body: `<p>AI is helpful, but it's easy to trip up when you're new. A few small mistakes can make the answers worse or even risky.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This article lists seven common beginner mistakes with AI and how to avoid them. It explains that vague prompts, missing goals, and unclear tone produce weak answers, and suggests adding simple context like who the answer is for, length, and purpose. It warns against trusting AI instantly, especially for health, money, or legal topics, and reminds you to double check facts. It also stresses privacy: never share passwords, bank details, or full addresses. Other tips include asking follow up questions, treating AI output as a draft, and restarting a chat if it gets messy. The article provides practice prompts, a before and after example, and a quick checklist to improve results. It also suggests keeping a small prompt notebook of wording that works. The core message is that small changes in how you ask make AI far more useful and safe.</p>
+</div>
+
+<p>AI is helpful, but it's easy to trip up when you're new. A few small mistakes can make the answers worse or even risky.</p>
 
 <p>Here are seven common mistakes and how to avoid them, explained in plain English.</p>
 

@@ -4,7 +4,11 @@ export const article = {
   description: "A simple, beginner friendly guide to Claude AI, what it's, how it works, and how it compares to ChatGPT.",
   date: "2026-02-19",
   keywords: ["what is Claude AI", "Claude AI explained", "Claude vs ChatGPT"],
-  body: `<p>Claude is an AI assistant made by a company called Anthropic. It's designed to be helpful, polite, and careful with how it responds.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This beginner guide explains what Claude AI is and how to use it. Claude is an AI assistant made by Anthropic that many people like for calm, clear writing and careful summaries. The article describes what it does well, such as organising notes, rewriting emails in a gentle tone, and handling longer text, while noting that it cannot access your personal files and can still make mistakes. It offers simple prompts to try, plus tips for asking for shorter or simpler answers. It also compares Claude with ChatGPT, suggesting you try both and choose the style you prefer. Privacy advice is included: avoid sharing passwords or bank details and use placeholders instead. The main answer is that Claude is a steady, polite writing and summarising tool, best used as a draft assistant with your own review.</p>
+</div>
+
+<p>Claude is an AI assistant made by a company called Anthropic. It's designed to be helpful, polite, and careful with how it responds.</p>
 
 <p>Many people like it for writing and summarising because the tone is calm and clear.</p>
 

@@ -4,7 +4,11 @@ export const article = {
   description: "Learn how AI features in photo apps can help you sort, find, and lightly edit pictures, with safety tips.",
   date: "2026-02-19",
   keywords: ["AI photo organiser", "AI help with photos", "organise photos with AI"],
-  body: `<p>Photos pile up quickly, especially on phones. AI features in photo apps can help you organise, find, and tidy your pictures without hours of manual sorting.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> AI features in photo apps can help you organise a messy photo library by grouping people, places, and themes, letting you search for things like beach or dog, and spotting near duplicates. The article explains a calm workflow: start small with one month or one holiday, create albums, favourite the best shots, then delete extras. It also covers simple one tap edits such as enhance or auto, which adjust light and colour, and advises keeping originals. You will learn how to use AI safely by backing up photos, checking cloud settings, and being cautious with family and children images. The guide includes prompts to ask an AI chat tool for organising steps, folder ideas, and backup plans, plus tips on sharing and printing once your library is tidy. It also recommends organising by year so photos are easy to find later.</p>
+</div>
+
+<p>Photos pile up quickly, especially on phones. AI features in photo apps can help you organise, find, and tidy your pictures without hours of manual sorting.</p>
 
 <p>This guide explains what those tools do and how to use them safely.</p>
 

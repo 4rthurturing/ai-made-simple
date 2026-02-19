@@ -4,7 +4,11 @@ export const article = {
   description: "A friendly guide to Google Gemini, what it does, how to use it, and how it compares to ChatGPT.",
   date: "2026-02-19",
   keywords: ["what is Google Gemini", "Gemini AI explained", "Google Gemini for beginners"],
-  body: `<p>Google Gemini is Google's AI assistant. It's designed to answer questions, explain topics, and help with everyday tasks like writing or planning.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This guide explains Google Gemini in plain English. Gemini is Google's AI assistant that can answer questions, explain topics, and help with everyday tasks like drafting emails or planning trips. It is convenient if you already use Google services, but it does not know your personal life unless you tell it and it can still make mistakes. The article describes how to start a chat, how to ask for shorter or simpler replies, and provides example prompts. It compares Gemini with ChatGPT, suggesting you try both to see which tone you prefer. It also stresses privacy: never share passwords, bank details, or full addresses. It notes that for important decisions you should verify facts with trusted sources. The key takeaway is that Gemini is a practical, easy to access assistant for simple writing and planning tasks, as long as you verify important facts.</p>
+</div>
+
+<p>Google Gemini is Google's AI assistant. It's designed to answer questions, explain topics, and help with everyday tasks like writing or planning.</p>
 
 <p>If you already use Google, it can feel familiar and easy to access. This guide keeps things simple and practical.</p>
 

@@ -4,7 +4,11 @@ export const article = {
   description: "Understand how banks use AI, what public AI tools can and can't do, and simple safety tips for protecting your details.",
   date: "2026-02-19",
   keywords: ["is AI safe for banking", "AI online banking safety", "can AI steal my bank details"],
-  body: `<p>People often ask if AI is safe for online banking. It's a sensible worry, especially when you see headlines about scams and fake messages.</p>
+  body: `<div class="info-box">
+<p><strong>Quick Summary:</strong> This guide explains whether AI is safe for online banking by separating bank owned AI systems from public chat tools. It says banks use AI to detect fraud, unusual logins, and suspicious spending, which helps protect customers. Public tools like ChatGPT are not connected to your accounts and cannot move money, so they are only safe for general explanations or drafting letters. The article warns never to share card numbers, PINs, passwords, or full addresses in AI chats. It also covers scam awareness, advising you to verify messages through official channels and avoid links that pressure you to act quickly. Red flags include requests for transfers, secrecy, or one time passcodes. The key takeaway is that AI can help you understand banking terms, but security depends on keeping personal details out of chats and verifying requests.</p>
+</div>
+
+<p>People often ask if AI is safe for online banking. It's a sensible worry, especially when you see headlines about scams and fake messages.</p>
 
 <p>The short answer is that your bank uses AI, but that's different from you using a public AI chat tool. Let's break it down in a simple way.</p>
 
