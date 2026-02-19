@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { articles } from "./articles";
 import type { Metadata } from "next";
+import BlogIndexClient from "./components/BlogIndexClient";
 
 export const metadata: Metadata = {
   title: "Blog - AI Tips, Guides & Safety Advice | Sage AI",
@@ -10,42 +10,22 @@ export const metadata: Metadata = {
 
 export default function BlogIndex() {
   return (
-    <div>
-      <h1 className="text-h1 font-bold mb-4" style={{ color: "#2D5A3D" }}>
-        📝 Blog
-      </h1>
-      <p className="text-body mb-10" style={{ color: "#6B7280" }}>
-        Practical guides, tips, and honest advice about AI. Written in plain
-        English for real people.
-      </p>
+    <div className="space-y-14">
+      <section className="relative overflow-hidden rounded-card bg-gradient-to-br from-[#1E3D29] to-[#2D5A3D] px-6 py-16 text-white shadow-[0_30px_70px_rgba(15,31,21,0.35)] sm:px-10">
+        <div className="hero-blobs" />
+        <div className="relative z-10 max-w-3xl space-y-4">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-white/70">
+            Sage AI Journal
+          </p>
+          <h1 className="text-4xl font-semibold md:text-5xl">Blog</h1>
+          <p className="text-lg text-white/80 md:text-xl">
+            Practical guides, tips, and honest advice about AI. Written in plain
+            English for real people.
+          </p>
+        </div>
+      </section>
 
-      <div className="grid gap-6">
-        {articles.map((article) => (
-          <Link
-            key={article.slug}
-            href={`/blog/${article.slug}`}
-            className="block rounded-card p-8 hover:shadow-lg transition-shadow"
-            style={{ backgroundColor: "#E8F0E9" }}
-          >
-            <h2
-              className="text-h3 font-semibold mb-2"
-              style={{ color: "#2D5A3D" }}
-            >
-              {article.title}
-            </h2>
-            <p className="text-body mb-3" style={{ color: "#4a4a4a" }}>
-              {article.description}
-            </p>
-            <p className="text-base" style={{ color: "#6B7280" }}>
-              {new Date(article.date).toLocaleDateString("en-GB", {
-                day: "numeric",
-                month: "long",
-                year: "numeric",
-              })}
-            </p>
-          </Link>
-        ))}
-      </div>
+      <BlogIndexClient articles={articles} />
     </div>
   );
 }

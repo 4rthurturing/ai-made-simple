@@ -39,12 +39,20 @@ a:hover {
 }
 
 /* Blog article prose styles */
+.prose-sage {
+  max-width: 720px;
+  line-height: 1.8;
+}
+
 .prose-sage h2 {
   color: var(--deep-forest);
   font-size: 1.6rem;
   font-weight: 600;
   margin-top: 2rem;
   margin-bottom: 0.75rem;
+  border-left: 4px solid #4A7C59;
+  padding-left: 1rem;
+  scroll-margin-top: 120px;
 }
 
 .prose-sage h3 {
@@ -56,7 +64,7 @@ a:hover {
 }
 
 .prose-sage p {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.4rem;
 }
 
 .prose-sage ul,
@@ -79,15 +87,49 @@ a:hover {
 
 .prose-sage blockquote {
   border-left: 4px solid var(--sage-green);
-  padding: 0.75rem 1.25rem;
-  margin: 1.2rem 0;
-  background-color: var(--light-sage);
-  border-radius: 0 0.75rem 0.75rem 0;
+  padding: 1rem 1.4rem;
+  margin: 1.6rem 0;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(14px);
+  border-radius: 0.75rem;
+  box-shadow: 0 12px 30px rgba(15, 31, 21, 0.08);
   font-style: italic;
 }
 
 .prose-sage strong {
   color: var(--deep-forest);
+}
+
+.prose-sage .info-box {
+  margin: 1.6rem 0;
+  padding: 1.25rem 1.5rem;
+  border-radius: 1rem;
+  background: rgba(232, 240, 233, 0.75);
+  border: 1px solid rgba(74, 124, 89, 0.2);
+  box-shadow: 0 14px 30px rgba(15, 31, 21, 0.08);
+}
+
+.prose-sage .faq-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(74, 124, 89, 0.15);
+  box-shadow: 0 18px 40px rgba(15, 31, 21, 0.08);
+}
+
+.prose-sage .faq-section h3,
+.prose-sage .faq-section h4 {
+  margin-top: 1.5rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.75rem;
+  background: rgba(232, 240, 233, 0.8);
+  font-weight: 700;
+}
+
+.prose-sage .faq-section h3:first-child,
+.prose-sage .faq-section h4:first-child {
+  margin-top: 0;
 }
 
 @keyframes fadeInUp {
@@ -184,6 +226,12 @@ a:hover {
   background-size: 200% 200%;
   animation: shimmer 2.6s ease-in-out infinite;
   pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.shimmer-border:hover::after {
+  opacity: 1;
 }
 
 .hero-blobs {
