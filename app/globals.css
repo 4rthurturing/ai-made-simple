@@ -10,11 +10,16 @@
   --light-sage: #E8F0E9;
 }
 
+html {
+  min-height: 100%;
+}
+
 body {
   background: linear-gradient(135deg, #FAFAF5 0%, #F0F5F1 100%);
   color: #1a1a1a;
   font-size: 20px;
   line-height: 1.7;
+  min-height: 100%;
 }
 
 ::selection {

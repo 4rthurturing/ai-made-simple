@@ -75,7 +75,8 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.className} min-h-screen text-[#1a1a1a] bg-[linear-gradient(135deg,#FAFAF5_0%,#F0F5F1_100%)] overflow-x-hidden`}
+        className={`${inter.className} min-h-screen text-[#1a1a1a] overflow-x-hidden flex flex-col`}
+        style={{ background: "linear-gradient(135deg, #FAFAF5 0%, #F0F5F1 100%)" }}
       >
         {/* Skip to content for accessibility */}
         <a
@@ -97,7 +98,7 @@ export default function RootLayout({
           </div>
         </nav>
 
-        <main id="main-content" className="max-w-content mx-auto px-6 py-12">
+        <main id="main-content" className="max-w-content mx-auto px-6 py-12 grow">
           {children}
         </main>
 

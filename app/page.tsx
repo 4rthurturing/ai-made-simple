@@ -33,7 +33,7 @@ export default function Home() {
             </Link>
             <Link
               href="/learn"
-              className="w-full sm:w-auto px-8 py-4 rounded-btn text-lg font-semibold text-white border-2 border-white/30 hover:border-white/60 hover:bg-white/10 transition-colors text-center"
+              className="w-full sm:w-auto px-8 py-4 rounded-btn text-lg font-semibold text-white border-2 border-white/50 hover:border-white hover:bg-white/10 transition-colors text-center"
             >
               See the learning path
             </Link>
