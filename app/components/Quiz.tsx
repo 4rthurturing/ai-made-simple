@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import Link from "next/link";
 import { lessons } from "./lessons";
 
@@ -88,6 +88,7 @@ export default function Quiz({ title, questions, lessonNumber }: QuizProps) {
   const [showConfetti, setShowConfetti] = useState(false);
   const [streak, setStreak] = useState(0);
   const [shakeWrong, setShakeWrong] = useState(false);
+  const quizTopRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     setStreak(getStreak());
@@ -129,6 +130,9 @@ export default function Quiz({ title, questions, lessonNumber }: QuizProps) {
       setCurrentQ((c) => c + 1);
       setSelected(null);
       setShowFeedback(false);
+      setTimeout(() => {
+        quizTopRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 50);
     }
   }
 
@@ -149,7 +153,7 @@ export default function Quiz({ title, questions, lessonNumber }: QuizProps) {
   }, [score, total]);
 
   return (
-    <section className="mt-12 pt-10 border-t-2" style={{ borderColor: "#E8F0E9" }}>
+    <section ref={quizTopRef} className="mt-12 pt-10 border-t-2" style={{ borderColor: "#E8F0E9" }}>
       {showConfetti && <Confetti />}
 
       <h2 className="text-h2 font-bold mb-2" style={{ color: "#2D5A3D" }}>
