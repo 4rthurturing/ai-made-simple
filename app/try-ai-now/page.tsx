@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import ChatBot from "./ChatBot";
+import LessonNav from "../components/LessonNav";
 
 export const metadata: Metadata = {
   title: "Try AI Now - Sage",
@@ -16,6 +17,8 @@ export default function TryAIPage() {
         Have a conversation with a real AI. Type anything you like and see how it responds.
       </p>
       <ChatBot />
+
+      <LessonNav currentLesson={3} />
     </div>
   );
 }

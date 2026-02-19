@@ -94,6 +94,102 @@ export const commonFearsQuiz = {
   ],
 };
 
+export const aiYouAlreadyUseQuiz = {
+  title: "Quick Quiz: AI You Already Use",
+  questions: [
+    {
+      question: "When your phone suggests the next word as you type, what is doing that?",
+      options: ["The internet", "AI built into your keyboard", "A person at the phone company", "Magic"],
+      correct: 1,
+      explanation: "Your phone keyboard uses AI to learn how you write and predict what word you want next.",
+    },
+    {
+      question: "How does your email know which messages are spam?",
+      options: ["You have to mark every one yourself", "AI learns to spot patterns in junk mail", "It blocks all unknown senders", "It reads every email aloud to check"],
+      correct: 1,
+      explanation: "AI studies millions of emails to learn what spam looks like and filters it out for you.",
+    },
+    {
+      question: "When Netflix suggests a programme you might like, what is happening?",
+      options: ["A person at Netflix picks it for you", "AI studies what you have watched and finds similar things", "It is completely random", "It only shows the most popular programmes"],
+      correct: 1,
+      explanation: "Netflix uses AI to study your viewing history and recommend programmes that match your taste.",
+    },
+    {
+      question: "Which of these uses AI to protect you?",
+      options: ["Your front door lock", "Your bank checking for unusual transactions", "Your toaster", "Your garden hose"],
+      correct: 1,
+      explanation: "Banks use AI to spot unusual spending patterns and block suspicious transactions to keep your money safe.",
+    },
+    {
+      question: "Is AI something completely new?",
+      options: ["Yes, it was invented last year", "No, you have been using it for years without realising", "It only exists in science fiction", "Only young people use it"],
+      correct: 1,
+      explanation: "AI has been part of everyday technology for years. Spam filters, sat navs, and phone cameras all use it.",
+    },
+  ],
+};
+
+export const tryAiNowQuiz = {
+  title: "Quick Quiz: Talking to AI",
+  questions: [
+    {
+      question: "How do you talk to an AI assistant like ChatGPT?",
+      options: ["You need to use special computer code", "You type in plain English, like texting a friend", "You have to speak out loud", "You need to fill in a form"],
+      correct: 1,
+      explanation: "AI assistants understand plain English. Just type your question like you would send a text message.",
+    },
+    {
+      question: "What should you do if the AI does not understand your question?",
+      options: ["Give up", "Rephrase your question and try again", "Buy a better computer", "Report it as broken"],
+      correct: 1,
+      explanation: "If AI does not understand, just rephrase your question. There is no wrong way to ask.",
+    },
+    {
+      question: "Can you ask AI follow-up questions?",
+      options: ["No, you get one question only", "Yes, you can keep the conversation going", "Only if you pay extra", "Only three follow-ups are allowed"],
+      correct: 1,
+      explanation: "AI remembers the conversation. You can say things like 'tell me more' or 'make that simpler' to keep going.",
+    },
+    {
+      question: "What is one of the best ways to get a good answer from AI?",
+      options: ["Use as few words as possible", "Be specific about what you need", "Use technical language", "Write in capital letters"],
+      correct: 1,
+      explanation: "The more specific you are, the better the answer. Tell AI exactly what you need and give it context.",
+    },
+  ],
+};
+
+export const forFamiliesQuiz = {
+  title: "Quick Quiz: Helping Others Learn",
+  questions: [
+    {
+      question: "What is the best way to help someone learn AI?",
+      options: ["Do it for them on your own device", "Let them do the typing on their own device while you guide them", "Send them a link and walk away", "Tell them to figure it out"],
+      correct: 1,
+      explanation: "People learn best by doing. Sit beside them and let them type on their own device while you guide with words.",
+    },
+    {
+      question: "If your relative is worried about AI safety, what should you do?",
+      options: ["Tell them not to worry", "Take their concerns seriously and show them how to stay safe", "Avoid the topic completely", "Tell them everyone else manages fine"],
+      correct: 1,
+      explanation: "Safety concerns are valid. Take them seriously and show practical safety steps rather than dismissing their worries.",
+    },
+    {
+      question: "How many new things should you teach in one session?",
+      options: ["As many as possible", "At least five", "One thing, done well", "It does not matter"],
+      correct: 2,
+      explanation: "One thing per session is better than five things that get forgotten. Keep it focused and celebrate small wins.",
+    },
+    {
+      question: "What is a good way to help someone get started with AI?",
+      options: ["Show them the most advanced features first", "Start with something relevant to their interests", "Make them read a textbook", "Set up an account and leave them to it"],
+      correct: 1,
+      explanation: "Start with their interests. If they love cooking, show AI helping with recipes. Make it relevant to their life.",
+    },
+  ],
+};
+
 export const staySafeQuiz = {
   title: "Quick Quiz: Staying Safe",
   questions: [

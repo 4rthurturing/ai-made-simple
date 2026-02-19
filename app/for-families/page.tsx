@@ -1,4 +1,7 @@
 import Link from "next/link";
+import Quiz from "../components/Quiz";
+import LessonNav from "../components/LessonNav";
+import { forFamiliesQuiz } from "../components/quizzes";
 
 export default function ForFamilies() {
   return (
@@ -222,7 +225,10 @@ export default function ForFamilies() {
             relative. It was built for them.
           </p>
         </div>
+        <Quiz title={forFamiliesQuiz.title} questions={forFamiliesQuiz.questions} lessonNumber={7} />
       </div>
+
+      <LessonNav currentLesson={7} />
     </div>
   );
 }

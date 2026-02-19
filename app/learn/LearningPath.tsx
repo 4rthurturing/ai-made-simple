@@ -2,16 +2,20 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { lessons as lessonList } from "../components/lessons";
 
-const lessons = [
-  { id: 1, title: "What is AI?", href: "/what-is-ai", desc: "Understand the basics in plain English." },
-  { id: 2, title: "AI You Already Use", href: "/what-is-ai#everyday-ai", desc: "You probably use AI every day without knowing it." },
-  { id: 3, title: "Talking to AI", href: "/try-ai-now", desc: "Have a real conversation with an AI assistant." },
-  { id: 4, title: "Practical Uses", href: "/practical-uses", desc: "Useful things AI can do for you right now." },
-  { id: 5, title: "Staying Safe", href: "/stay-safe", desc: "Simple rules to keep yourself safe online." },
-  { id: 6, title: "Common Fears Answered", href: "/common-fears", desc: "Honest answers to the worries people have." },
-  { id: 7, title: "Helping Others Learn", href: "/for-families", desc: "Share what you have learnt with family and friends." },
-];
+const lessons = lessonList.map((l) => {
+  const descs: Record<number, string> = {
+    1: "Understand the basics in plain English.",
+    2: "You probably use AI every day without knowing it.",
+    3: "Have a real conversation with an AI assistant.",
+    4: "Useful things AI can do for you right now.",
+    5: "Simple rules to keep yourself safe online.",
+    6: "Honest answers to the worries people have.",
+    7: "Share what you have learnt with family and friends.",
+  };
+  return { ...l, desc: descs[l.id] || "" };
+});
 
 const STORAGE_KEY = "sage-completed-lessons";
 

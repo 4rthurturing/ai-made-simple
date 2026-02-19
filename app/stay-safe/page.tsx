@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Quiz from "../components/Quiz";
+import LessonNav from "../components/LessonNav";
 import { staySafeQuiz } from "../components/quizzes";
 
 export default function StaySafe() {
@@ -239,7 +240,9 @@ export default function StaySafe() {
         </div>
       </div>
 
-      <Quiz title={staySafeQuiz.title} questions={staySafeQuiz.questions} />
+      <Quiz title={staySafeQuiz.title} questions={staySafeQuiz.questions} lessonNumber={5} />
+
+      <LessonNav currentLesson={5} />
     </div>
   );
 }

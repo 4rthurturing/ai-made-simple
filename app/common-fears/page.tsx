@@ -1,4 +1,5 @@
 import Quiz from "../components/Quiz";
+import LessonNav from "../components/LessonNav";
 import { commonFearsQuiz } from "../components/quizzes";
 
 export default function CommonFears() {
@@ -146,7 +147,9 @@ export default function CommonFears() {
         </p>
       </div>
 
-      <Quiz title={commonFearsQuiz.title} questions={commonFearsQuiz.questions} />
+      <Quiz title={commonFearsQuiz.title} questions={commonFearsQuiz.questions} lessonNumber={6} />
+
+      <LessonNav currentLesson={6} />
     </div>
   );
 }

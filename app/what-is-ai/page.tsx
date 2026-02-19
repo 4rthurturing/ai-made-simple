@@ -1,4 +1,5 @@
 import Quiz from "../components/Quiz";
+import LessonNav from "../components/LessonNav";
 import { whatIsAiQuiz } from "../components/quizzes";
 
 export default function WhatIsAI() {
@@ -265,8 +266,10 @@ export default function WhatIsAI() {
           </p>
         </div>
 
-        <Quiz title={whatIsAiQuiz.title} questions={whatIsAiQuiz.questions} />
+        <Quiz title={whatIsAiQuiz.title} questions={whatIsAiQuiz.questions} lessonNumber={1} />
       </div>
+
+      <LessonNav currentLesson={1} />
     </div>
   );
 }

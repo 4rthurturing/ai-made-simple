@@ -1,4 +1,5 @@
 import Quiz from "../components/Quiz";
+import LessonNav from "../components/LessonNav";
 import { practicalUsesQuiz } from "../components/quizzes";
 
 export default function PracticalUses() {
@@ -212,7 +213,9 @@ export default function PracticalUses() {
         </p>
       </div>
 
-      <Quiz title={practicalUsesQuiz.title} questions={practicalUsesQuiz.questions} />
+      <Quiz title={practicalUsesQuiz.title} questions={practicalUsesQuiz.questions} lessonNumber={4} />
+
+      <LessonNav currentLesson={4} />
     </div>
   );
 }
