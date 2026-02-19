@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import Link from "next/link";
+import MobileNav from "./components/MobileNav";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -95,18 +96,7 @@ export default function RootLayout({
             >
               🌿 Sage
             </Link>
-            <div className="flex flex-wrap gap-6 text-xl">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="font-semibold hover:underline underline-offset-4 transition-colors"
-                  style={{ color: "#2D5A3D" }}
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </div>
+            <MobileNav />
           </div>
         </nav>
 
