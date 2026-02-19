@@ -110,12 +110,17 @@ export default function ChatBot() {
       </div>
 
       {/* Input */}
-      <div className="flex gap-3 sticky bottom-0 z-10 bg-[#FAFAF5] py-3">
+      <div className="flex gap-3 py-3">
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && send()}
+          onFocus={(e) => {
+            setTimeout(() => {
+              e.target.scrollIntoView({ behavior: "smooth", block: "center" });
+            }, 300);
+          }}
           placeholder="Type your message here..."
           className="flex-1 rounded-btn px-5 text-body border-2 focus:outline-none focus:ring-2"
           style={{
