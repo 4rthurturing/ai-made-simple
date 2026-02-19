@@ -69,8 +69,28 @@ export default function Home() {
             💡 Practical Uses
           </h3>
           <p className="text-body" style={{ color: "#6B7280" }}>
-            Real ways AI can help you every day, from writing letters to
-            planning meals.
+            17 real ways AI can help you every day, from writing letters to
+            keeping up with grandchildren.
+          </p>
+        </Link>
+
+        <Link
+          href="/try-it"
+          className="block rounded-card p-8 border-2 hover:shadow-lg transition-all hover:-translate-y-1"
+          style={{
+            backgroundColor: "#E8F0E9",
+            borderColor: "#A3C3A7",
+          }}
+        >
+          <h3
+            className="text-h3 font-semibold mb-3"
+            style={{ color: "#2D5A3D" }}
+          >
+            🚀 Try It Yourself
+          </h3>
+          <p className="text-body" style={{ color: "#6B7280" }}>
+            Step-by-step guides to using ChatGPT, Claude, and Google Gemini
+            for the first time.
           </p>
         </Link>
 
@@ -94,6 +114,45 @@ export default function Home() {
         </Link>
 
         <Link
+          href="/stay-safe"
+          className="block rounded-card p-8 border-2 hover:shadow-lg transition-all hover:-translate-y-1"
+          style={{
+            backgroundColor: "#FEF2F2",
+            borderColor: "#FCA5A5",
+          }}
+        >
+          <h3
+            className="text-h3 font-semibold mb-3"
+            style={{ color: "#991B1B" }}
+          >
+            🔒 Stay Safe
+          </h3>
+          <p className="text-body" style={{ color: "#6B7280" }}>
+            Scams, deepfakes, privacy settings, and what never to share.
+            Your complete safety guide.
+          </p>
+        </Link>
+
+        <Link
+          href="/for-families"
+          className="block rounded-card p-8 border-2 hover:shadow-lg transition-all hover:-translate-y-1"
+          style={{
+            backgroundColor: "#FFF8E7",
+            borderColor: "#E0B84D",
+          }}
+        >
+          <h3
+            className="text-h3 font-semibold mb-3"
+            style={{ color: "#8B6914" }}
+          >
+            👨‍👩‍👧‍👦 For Families
+          </h3>
+          <p className="text-body" style={{ color: "#6B7280" }}>
+            Helping an older relative learn AI? This guide is for you.
+          </p>
+        </Link>
+
+        <Link
           href="/glossary"
           className="block rounded-card p-8 border-2 hover:shadow-lg transition-all hover:-translate-y-1"
           style={{
@@ -108,8 +167,8 @@ export default function Home() {
             📖 Glossary
           </h3>
           <p className="text-body" style={{ color: "#6B7280" }}>
-            All the buzzwords explained simply. Come back here whenever you see
-            a word you don&apos;t recognise.
+            26 AI buzzwords explained simply. Come back here whenever you see
+            a word you do not recognise.
           </p>
         </Link>
       </div>

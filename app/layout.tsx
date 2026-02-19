@@ -15,7 +15,10 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/what-is-ai", label: "What is AI?" },
   { href: "/practical-uses", label: "Practical Uses" },
+  { href: "/try-it", label: "Try It" },
   { href: "/common-fears", label: "Common Fears" },
+  { href: "/stay-safe", label: "Stay Safe" },
+  { href: "/for-families", label: "For Families" },
   { href: "/glossary", label: "Glossary" },
 ];
 
