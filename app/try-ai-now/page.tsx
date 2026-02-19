@@ -16,11 +16,11 @@ export default function TryAIPage() {
       <p className="text-body mb-8" style={{ color: "#6B7280" }}>
         Have a conversation with a real AI. Type anything you like and see how it responds.
       </p>
-      <ChatBot />
-
-      <div className="mt-8">
+      <div className="mb-8">
         <LessonNav currentLesson={3} />
       </div>
+
+      <ChatBot />
     </div>
   );
 }
