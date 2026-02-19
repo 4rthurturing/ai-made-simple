@@ -189,12 +189,31 @@ export default async function GlossaryTermPage({ params }: PageProps) {
         </div>
       </div>
 
-      <Link
-        href="/glossary"
-        className="inline-flex items-center text-sm font-semibold text-[#2D5A3D] hover:text-[#1E3D29]"
-      >
-        Back to glossary
-      </Link>
+      {/* Prev / Next navigation */}
+      {(() => {
+        const currentIndex = glossaryTerms.findIndex((t) => t.slug === slug);
+        const prev = currentIndex > 0 ? glossaryTerms[currentIndex - 1] : null;
+        const next = currentIndex < glossaryTerms.length - 1 ? glossaryTerms[currentIndex + 1] : null;
+        return (
+          <nav className="flex justify-between items-center pt-8 border-t-2 gap-4" style={{ borderColor: "#E8F0E9" }}>
+            {prev ? (
+              <Link href={`/glossary/${prev.slug}`} scroll={true} className="flex-1 glass-card rounded-card p-5 transition-shadow hover:shadow-lg text-left">
+                <p className="text-sm text-[#6B7280]">← Previous Term</p>
+                <p className="text-lg font-semibold text-[#2D5A3D] mt-1">{prev.term}</p>
+              </Link>
+            ) : <div className="flex-1" />}
+            <Link href="/glossary" className="shrink-0 px-5 py-3 rounded-full border border-[#C9D8CC] bg-white/70 text-sm font-semibold text-[#2D5A3D] hover:border-[#4A7C59] hover:text-[#1E3D29] transition-all text-center">
+              All Terms
+            </Link>
+            {next ? (
+              <Link href={`/glossary/${next.slug}`} scroll={true} className="flex-1 glass-card rounded-card p-5 transition-shadow hover:shadow-lg text-right">
+                <p className="text-sm text-[#6B7280]">Next Term →</p>
+                <p className="text-lg font-semibold text-[#2D5A3D] mt-1">{next.term}</p>
+              </Link>
+            ) : <div className="flex-1" />}
+          </nav>
+        );
+      })()}
     </div>
   );
 }
