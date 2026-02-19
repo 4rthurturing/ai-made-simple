@@ -110,7 +110,7 @@ export default function ChatBot() {
       </div>
 
       {/* Input */}
-      <div className="flex gap-3">
+      <div className="flex gap-3 sticky bottom-0 z-10 bg-[#FAFAF5] py-3">
         <input
           type="text"
           value={input}
