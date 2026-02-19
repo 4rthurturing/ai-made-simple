@@ -18,8 +18,8 @@ export default function Home() {
           <p className="text-sm font-semibold uppercase tracking-widest text-[#D4A843] mb-4">
             For everyone &amp; their families
           </p>
-          <h1 className="text-[34px] md:text-[56px] font-bold tracking-tight mb-5 text-white leading-[1.1] whitespace-nowrap">
-            Learn AI Your Way
+          <h1 className="text-[clamp(32px,8.5vw,56px)] md:text-[56px] font-bold tracking-tight mb-5 text-white leading-[1.1]">
+            Learn&nbsp;AI&nbsp;Your&nbsp;Way
           </h1>
           <p className="text-lg md:text-xl text-white/80 mb-10 max-w-md mx-auto">
             Plain English guides. No jargon, no pressure, no tech skills needed.
