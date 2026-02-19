@@ -16,10 +16,7 @@ export default function ChatBot() {
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
-  const [keyboardOpen, setKeyboardOpen] = useState(false);
   const chatContainerRef = useRef<HTMLDivElement>(null);
-  const inputRef = useRef<HTMLInputElement>(null);
-  const inputBarRef = useRef<HTMLDivElement>(null);
   const isFirstRender = useRef(true);
 
   useEffect(() => {
@@ -31,49 +28,6 @@ export default function ChatBot() {
       chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
     }
   }, [messages]);
-
-  // On iOS, the keyboard doesn't shrink the layout viewport.
-  // We detect it via visualViewport and fix-position the input bar.
-  useEffect(() => {
-    const vv = window.visualViewport;
-    if (!vv) return;
-
-    function onResize() {
-      const bar = inputBarRef.current;
-      if (!bar) return;
-
-      // If visual viewport is significantly smaller than window, keyboard is open
-      const heightDiff = window.innerHeight - vv!.height;
-      if (heightDiff > 150) {
-        setKeyboardOpen(true);
-        bar.style.position = "fixed";
-        bar.style.bottom = `${heightDiff}px`;
-        bar.style.left = "0";
-        bar.style.right = "0";
-        bar.style.zIndex = "9999";
-        bar.style.padding = "8px 16px";
-        bar.style.backgroundColor = "#FAFAF5";
-        bar.style.borderTop = "1px solid rgba(74,124,89,0.2)";
-      } else {
-        setKeyboardOpen(false);
-        bar.style.position = "";
-        bar.style.bottom = "";
-        bar.style.left = "";
-        bar.style.right = "";
-        bar.style.zIndex = "";
-        bar.style.padding = "";
-        bar.style.backgroundColor = "";
-        bar.style.borderTop = "";
-      }
-    }
-
-    vv.addEventListener("resize", onResize);
-    vv.addEventListener("scroll", onResize);
-    return () => {
-      vv.removeEventListener("resize", onResize);
-      vv.removeEventListener("scroll", onResize);
-    };
-  }, []);
 
   async function send() {
     const text = input.trim();
@@ -107,20 +61,20 @@ export default function ChatBot() {
   }
 
   return (
-    <div className="flex flex-col" style={{ minHeight: "min(70vh, 600px)" }}>
+    <div>
       {/* Disclaimer */}
       <div
-        className="rounded-btn p-4 mb-4 text-base shrink-0"
+        className="rounded-btn p-4 mb-4 text-base"
         style={{ backgroundColor: "#FEF3C7", color: "#92400E" }}
       >
         ⚠️ This is a live AI assistant. It may occasionally make mistakes. Don&apos;t share personal
         information like passwords or bank details.
       </div>
 
-      {/* Chat area - grows to fill space */}
+      {/* Chat area */}
       <div
         ref={chatContainerRef}
-        className="rounded-card p-6 mb-4 overflow-y-auto grow"
+        className="rounded-card p-6 mb-4 overflow-y-auto"
         style={{ backgroundColor: "#E8F0E9", maxHeight: "480px", minHeight: "200px" }}
       >
         {messages.map((msg, i) => (
@@ -152,13 +106,9 @@ export default function ChatBot() {
         )}
       </div>
 
-      {/* Spacer when keyboard is open to prevent content jump */}
-      {keyboardOpen && <div style={{ height: "60px" }} />}
-
-      {/* Input - always at bottom of chat section */}
-      <div ref={inputBarRef} className="flex gap-3 shrink-0">
+      {/* Input */}
+      <div className="flex gap-3 pb-4">
         <input
-          ref={inputRef}
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
