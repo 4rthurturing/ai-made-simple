@@ -45,16 +45,16 @@ export default function RootLayout({
           <div className="max-w-content mx-auto flex flex-wrap items-center justify-between gap-4">
             <Link
               href="/"
-              className="text-2xl font-bold tracking-tight text-white hover:opacity-90 transition-opacity"
+              className="text-3xl font-bold tracking-tight text-white hover:opacity-90 transition-opacity"
             >
               🌿 Sage
             </Link>
-            <div className="flex flex-wrap gap-5 text-lg">
+            <div className="flex flex-wrap gap-6 text-xl">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-white/90 hover:text-white hover:underline underline-offset-4 transition-colors"
+                  className="text-white font-semibold hover:underline underline-offset-4 transition-colors"
                 >
                   {link.label}
                 </Link>
