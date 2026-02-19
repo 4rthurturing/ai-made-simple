@@ -17,9 +17,18 @@ export default function ChatBot() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
+  const chatContainerRef = useRef<HTMLDivElement>(null);
+  const isFirstRender = useRef(true);
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+    // Scroll within the chat container only, not the whole page
+    if (chatContainerRef.current) {
+      chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
+    }
   }, [messages]);
 
   async function send() {
@@ -66,6 +75,7 @@ export default function ChatBot() {
 
       {/* Chat area */}
       <div
+        ref={chatContainerRef}
         className="rounded-card p-6 mb-4 overflow-y-auto"
         style={{ backgroundColor: "#E8F0E9", maxHeight: "480px", minHeight: "300px" }}
       >
