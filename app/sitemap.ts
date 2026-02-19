@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { articles } from "./blog/articles";
+import { glossaryTerms } from "./glossary/terms";
 
 const BASE = "https://hellosage.co.uk";
 
@@ -24,5 +25,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7 as const,
   }));
 
-  return [...staticPages, ...blogPages];
+  const glossaryPages = glossaryTerms.map((term) => ({
+    url: `${BASE}/glossary/${term.slug}`,
+    lastModified: "2026-02-19",
+    priority: 0.6 as const,
+  }));
+
+  return [...staticPages, ...blogPages, ...glossaryPages];
 }

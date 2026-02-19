@@ -2249,4 +2249,504 @@ export const glossaryTerms: GlossaryTerm[] = [
     relatedTerms: ["assistant", "system-prompt", "personalization"],
     category: "practical",
   },
+  {
+    slug: "optimization",
+    term: "Optimization",
+    simpleDefinition:
+      "Improving a system to get better results, like higher accuracy or lower cost.",
+    example: "Reducing a model's error rate during training.",
+    analogy: "Think of it like tuning a bike so it rides smoother.",
+    relatedTerms: ["training", "model", "performance"],
+    category: "technical",
+  },
+  {
+    slug: "transfer-learning",
+    term: "Transfer Learning",
+    simpleDefinition:
+      "Reusing a model trained on one task to help with another task.",
+    example: "Starting with a photo model to recognize medical images.",
+    analogy: "Think of it like using skills from one job in a new role.",
+    relatedTerms: ["fine-tuning", "training", "model"],
+    category: "technical",
+  },
+  {
+    slug: "integration",
+    term: "Integration",
+    simpleDefinition:
+      "Connecting tools so they work together and share data.",
+    example: "Linking a chatbot with a customer support system.",
+    analogy: "Think of it like plugging devices into the same power strip.",
+    relatedTerms: ["api", "workflow-automation", "saas"],
+    category: "practical",
+  },
+  {
+    slug: "webhook",
+    term: "Webhook",
+    simpleDefinition:
+      "An automated message sent when something happens in an app.",
+    example: "Sending a Slack alert when a form is submitted.",
+    analogy: "Think of it like a doorbell that rings when someone arrives.",
+    relatedTerms: ["api", "integration", "automation"],
+    category: "practical",
+  },
+  {
+    slug: "license",
+    term: "License",
+    simpleDefinition:
+      "Legal terms that say how software or data can be used.",
+    example: "An open source license allowing reuse with credit.",
+    analogy: "Think of it like rental rules for a shared tool.",
+    relatedTerms: ["open-source", "compliance", "policy"],
+    category: "practical",
+  },
+  {
+    slug: "attention",
+    term: "Attention",
+    simpleDefinition:
+      "A method that helps models focus on the most important parts of input.",
+    example: "A model focusing on key words in a long question.",
+    analogy: "Think of it like highlighting the important lines in a note.",
+    relatedTerms: ["transformer", "large-language-model", "token"],
+    category: "technical",
+  },
+  {
+    slug: "future-of-ai",
+    term: "Future of AI",
+    simpleDefinition:
+      "How AI might develop and affect society over time.",
+    example: "Planning new skills for jobs that use AI tools.",
+    analogy: "Think of it like a weather forecast for technology.",
+    relatedTerms: ["agi", "narrow-ai", "safety"],
+    category: "practical",
+  },
+  {
+    slug: "audio",
+    term: "Audio",
+    simpleDefinition:
+      "Sound data that AI can analyze or generate.",
+    example: "Audio recordings used to train speech recognition.",
+    analogy: "Think of it like the sound track of a movie.",
+    relatedTerms: ["speech-recognition", "text-to-speech", "voice-cloning"],
+    category: "technical",
+  },
+  {
+    slug: "misinformation",
+    term: "Misinformation",
+    simpleDefinition:
+      "False information that spreads, sometimes accidentally.",
+    example: "A misleading AI-generated post shared on social media.",
+    analogy: "Think of it like a rumor that travels fast.",
+    relatedTerms: ["deepfake", "fact-checking", "safety"],
+    category: "safety",
+  },
+  {
+    slug: "tracking",
+    term: "Tracking",
+    simpleDefinition:
+      "Recording user activity to understand behavior or show ads.",
+    example: "An ad network tracking visits across websites.",
+    analogy: "Think of it like leaving breadcrumbs online.",
+    relatedTerms: ["cookies", "privacy", "consent"],
+    category: "safety",
+  },
+  {
+    slug: "health-tech",
+    term: "Health Tech",
+    simpleDefinition:
+      "Technology used to support health and medical care.",
+    example: "A wearable that monitors heart rate.",
+    analogy: "Think of it like a digital stethoscope.",
+    relatedTerms: ["wearable", "safety", "accessibility"],
+    category: "practical",
+  },
+  {
+    slug: "sensor",
+    term: "Sensor",
+    simpleDefinition:
+      "A device that measures something like motion, light, or temperature.",
+    example: "A motion sensor turning on a porch light.",
+    analogy: "Think of it like a thermometer for machines.",
+    relatedTerms: ["iot", "smart-home", "device"],
+    category: "technical",
+  },
+  {
+    slug: "autonomy",
+    term: "Autonomy",
+    simpleDefinition:
+      "The ability for a system to act on its own.",
+    example: "A drone adjusting its path without a pilot.",
+    analogy: "Think of it like a car driving itself.",
+    relatedTerms: ["automation", "autonomous-vehicle", "robot"],
+    category: "technical",
+  },
+  {
+    slug: "text",
+    term: "Text",
+    simpleDefinition:
+      "Written words that can be analyzed or generated by AI.",
+    example: "Emails used to train a writing assistant.",
+    analogy: "Think of it like pages in a book.",
+    relatedTerms: ["language-model", "natural-language-processing", "data"],
+    category: "technical",
+  },
+  {
+    slug: "language-model",
+    term: "Language Model",
+    simpleDefinition:
+      "A model that predicts and generates text.",
+    example: "Autocomplete guessing the next word.",
+    analogy: "Think of it like a next-word guessing game.",
+    relatedTerms: ["large-language-model", "text-generation", "token"],
+    category: "technical",
+  },
+  {
+    slug: "keyboard",
+    term: "Keyboard",
+    simpleDefinition:
+      "The typing tool where predictive text and autocorrect appear.",
+    example: "A phone keyboard suggesting the next word.",
+    analogy: "Think of it like piano keys for typing.",
+    relatedTerms: ["predictive-text", "autocorrect", "suggestions"],
+    category: "practical",
+  },
+  {
+    slug: "suggestions",
+    term: "Suggestions",
+    simpleDefinition:
+      "Helpful recommendations shown by software.",
+    example: "Search suggestions appearing as you type.",
+    analogy: "Think of it like a helpful nudge.",
+    relatedTerms: ["autocomplete", "predictive-text", "recommendation-system"],
+    category: "practical",
+  },
+  {
+    slug: "grammar-check",
+    term: "Grammar Check",
+    simpleDefinition:
+      "A tool that fixes grammar and sentence structure.",
+    example: "Correcting tense errors in an email.",
+    analogy: "Think of it like a teacher marking a paper.",
+    relatedTerms: ["spell-check", "writing-tools", "autocorrect"],
+    category: "practical",
+  },
+  {
+    slug: "writing-tools",
+    term: "Writing Tools",
+    simpleDefinition:
+      "AI features that help you write more clearly and quickly.",
+    example: "An assistant that rewrites a paragraph to be shorter.",
+    analogy: "Think of it like a writing coach.",
+    relatedTerms: ["text-generation", "summarization", "grammar-check"],
+    category: "tools",
+  },
+  {
+    slug: "mixed-reality",
+    term: "Mixed Reality (MR)",
+    simpleDefinition:
+      "A blend of real and virtual elements that interact together.",
+    example: "Virtual objects anchored to your living room table.",
+    analogy: "Think of it like holograms in your space.",
+    relatedTerms: ["augmented-reality", "virtual-reality", "spatial-computing"],
+    category: "practical",
+  },
+  {
+    slug: "spatial-computing",
+    term: "Spatial Computing",
+    simpleDefinition:
+      "Computing that understands and uses physical space.",
+    example: "Placing virtual screens around a room with a headset.",
+    analogy: "Think of it like arranging digital furniture.",
+    relatedTerms: ["mixed-reality", "headset", "augmented-reality"],
+    category: "technical",
+  },
+  {
+    slug: "headset",
+    term: "Headset",
+    simpleDefinition:
+      "A wearable device for VR or AR experiences.",
+    example: "A VR headset used for a virtual museum tour.",
+    analogy: "Think of it like goggles for digital worlds.",
+    relatedTerms: ["virtual-reality", "mixed-reality", "spatial-computing"],
+    category: "practical",
+  },
+  {
+    slug: "decentralization",
+    term: "Decentralization",
+    simpleDefinition:
+      "Spreading control across many computers instead of one owner.",
+    example: "A blockchain network run by many participants.",
+    analogy: "Think of it like a town hall instead of a single boss.",
+    relatedTerms: ["blockchain", "web3", "cryptocurrency"],
+    category: "technical",
+  },
+  {
+    slug: "wallet",
+    term: "Wallet",
+    simpleDefinition:
+      "An app or device that stores your cryptocurrency keys.",
+    example: "Using a wallet app to send Bitcoin.",
+    analogy: "Think of it like a digital wallet with keys instead of cash.",
+    relatedTerms: ["cryptocurrency", "blockchain", "security"],
+    category: "practical",
+  },
+  {
+    slug: "developer-tools",
+    term: "Developer Tools",
+    simpleDefinition:
+      "Software that helps people build apps or models.",
+    example: "A toolkit for calling an AI API.",
+    analogy: "Think of it like a toolbox for builders.",
+    relatedTerms: ["api", "integration", "software"],
+    category: "practical",
+  },
+  {
+    slug: "pricing",
+    term: "Pricing",
+    simpleDefinition:
+      "How much a product or service costs.",
+    example: "A free plan with paid upgrades.",
+    analogy: "Think of it like a price tag on a shelf.",
+    relatedTerms: ["subscription", "freemium", "billing"],
+    category: "practical",
+  },
+  {
+    slug: "billing",
+    term: "Billing",
+    simpleDefinition:
+      "How payments are charged and recorded.",
+    example: "A monthly invoice for a subscription.",
+    analogy: "Think of it like a utility bill.",
+    relatedTerms: ["subscription", "pricing", "saas"],
+    category: "practical",
+  },
+  {
+    slug: "ai-safety",
+    term: "AI Safety",
+    simpleDefinition:
+      "The field focused on making AI systems safe and reliable.",
+    example: "Stress-testing a chatbot before launch.",
+    analogy: "Think of it like crash testing a car.",
+    relatedTerms: ["safety", "guardrails", "monitoring"],
+    category: "safety",
+  },
+  {
+    slug: "research",
+    term: "Research",
+    simpleDefinition:
+      "Careful study and testing to learn new things.",
+    example: "A lab studying ways to reduce bias in models.",
+    analogy: "Think of it like running experiments.",
+    relatedTerms: ["evaluation", "benchmark", "model"],
+    category: "technical",
+  },
+  {
+    slug: "clustering",
+    term: "Clustering",
+    simpleDefinition:
+      "Grouping similar items without pre-made labels.",
+    example: "Grouping customers by shopping habits.",
+    analogy: "Think of it like sorting socks by color.",
+    relatedTerms: ["unsupervised-learning", "dataset", "model"],
+    category: "technical",
+  },
+  {
+    slug: "reward-model",
+    term: "Reward Model",
+    simpleDefinition:
+      "A model that scores outputs so AI learns what is good.",
+    example: "Scoring chatbot replies for helpfulness.",
+    analogy: "Think of it like a judge giving points.",
+    relatedTerms: ["reinforcement-learning", "evaluation", "safety"],
+    category: "technical",
+  },
+  {
+    slug: "agent",
+    term: "Agent",
+    simpleDefinition:
+      "An AI that can take steps to complete a task.",
+    example: "An agent booking travel and confirming times.",
+    analogy: "Think of it like a personal assistant running errands.",
+    relatedTerms: ["automation", "assistant", "workflow-automation"],
+    category: "tools",
+  },
+  {
+    slug: "serving",
+    term: "Serving",
+    simpleDefinition:
+      "Delivering model outputs to users in real time.",
+    example: "An API that returns a chatbot response.",
+    analogy: "Think of it like the kitchen serving meals.",
+    relatedTerms: ["inference", "api", "deployment"],
+    category: "technical",
+  },
+  {
+    slug: "entity",
+    term: "Entity",
+    simpleDefinition:
+      "A real-world thing in data, like a person or place.",
+    example: "Recognizing that \"London\" is a city.",
+    analogy: "Think of it like a labeled noun.",
+    relatedTerms: ["knowledge-graph", "semantic-search", "data"],
+    category: "technical",
+  },
+  {
+    slug: "generalization",
+    term: "Generalization",
+    simpleDefinition:
+      "When a model works well on new data it has not seen before.",
+    example: "A model trained on one camera still working on another.",
+    analogy: "Think of it like learning rules, not memorizing answers.",
+    relatedTerms: ["training", "evaluation", "dataset"],
+    category: "technical",
+  },
+  {
+    slug: "reasoning",
+    term: "Reasoning",
+    simpleDefinition:
+      "Using steps and logic to reach an answer.",
+    example: "Explaining how a math result was reached.",
+    analogy: "Think of it like solving a puzzle step by step.",
+    relatedTerms: ["chain-of-thought", "prompt", "model"],
+    category: "technical",
+  },
+  {
+    slug: "sampling",
+    term: "Sampling",
+    simpleDefinition:
+      "Choosing outputs based on probabilities instead of one fixed answer.",
+    example: "Generating a slightly different story each time.",
+    analogy: "Think of it like drawing a card from a shuffled deck.",
+    relatedTerms: ["temperature", "model", "text-generation"],
+    category: "technical",
+  },
+  {
+    slug: "memory",
+    term: "Memory",
+    simpleDefinition:
+      "Stored information that can shape future AI responses.",
+    example: "A bot remembering your preferred tone.",
+    analogy: "Think of it like notes kept for later.",
+    relatedTerms: ["assistant-memory", "context-window", "privacy"],
+    category: "safety",
+  },
+  {
+    slug: "drift",
+    term: "Drift",
+    simpleDefinition:
+      "Changes over time that can hurt model performance.",
+    example: "A model trained on old slang missing new phrases.",
+    analogy: "Think of it like a compass slowly drifting off course.",
+    relatedTerms: ["data-drift", "monitoring", "dataset-shift"],
+    category: "safety",
+  },
+  {
+    slug: "faq",
+    term: "FAQ",
+    simpleDefinition:
+      "A list of frequently asked questions and answers.",
+    example: "A help page answering common issues.",
+    analogy: "Think of it like a quick-reference guide.",
+    relatedTerms: ["knowledge-base", "documentation", "support"],
+    category: "practical",
+  },
+  {
+    slug: "publishing",
+    term: "Publishing",
+    simpleDefinition:
+      "Making content available to the public.",
+    example: "Posting a new glossary entry online.",
+    analogy: "Think of it like putting a book on the shelf.",
+    relatedTerms: ["content", "copy", "seo"],
+    category: "practical",
+  },
+  {
+    slug: "copy",
+    term: "Copy",
+    simpleDefinition:
+      "Written text used in marketing or on websites.",
+    example: "Homepage copy that explains what a service does.",
+    analogy: "Think of it like a short sales pitch.",
+    relatedTerms: ["content", "marketing", "writing-tools"],
+    category: "practical",
+  },
+  {
+    slug: "bounding-box",
+    term: "Bounding Box",
+    simpleDefinition:
+      "A rectangle that marks where an object is in an image.",
+    example: "Drawing boxes around cars for training data.",
+    analogy: "Think of it like highlighting with a square.",
+    relatedTerms: ["object-detection", "annotation", "computer-vision"],
+    category: "technical",
+  },
+  {
+    slug: "tools",
+    term: "Tools",
+    simpleDefinition:
+      "Apps or features used to get tasks done.",
+    example: "An AI tool for summarizing long documents.",
+    analogy: "Think of it like a toolbox with different gadgets.",
+    relatedTerms: ["ai-tool", "assistant-tools", "software"],
+    category: "practical",
+  },
+  {
+    slug: "reporting",
+    term: "Reporting",
+    simpleDefinition:
+      "Sharing results and metrics in a clear format.",
+    example: "A weekly report on chatbot performance.",
+    analogy: "Think of it like a report card.",
+    relatedTerms: ["analytics", "dashboard", "metrics"],
+    category: "practical",
+  },
+  {
+    slug: "uptime",
+    term: "Uptime",
+    simpleDefinition:
+      "How often a system is available and working.",
+    example: "A service promising 99.9% uptime.",
+    analogy: "Think of it like store opening hours.",
+    relatedTerms: ["performance", "reliability", "maintenance"],
+    category: "technical",
+  },
+  {
+    slug: "maintenance",
+    term: "Maintenance",
+    simpleDefinition:
+      "Keeping systems updated and running smoothly.",
+    example: "Applying security patches to servers.",
+    analogy: "Think of it like changing the oil in a car.",
+    relatedTerms: ["uptime", "deployment", "security"],
+    category: "technical",
+  },
+  {
+    slug: "interface",
+    term: "Interface",
+    simpleDefinition:
+      "The part of a product you see and use.",
+    example: "Buttons and menus in a chatbot app.",
+    analogy: "Think of it like the dashboard of a car.",
+    relatedTerms: ["user-experience", "design", "usability"],
+    category: "practical",
+  },
+  {
+    slug: "forums",
+    term: "Forums",
+    simpleDefinition:
+      "Online spaces where people discuss questions and ideas.",
+    example: "A community forum for AI tool users.",
+    analogy: "Think of it like a town square for conversations.",
+    relatedTerms: ["community", "support", "documentation"],
+    category: "practical",
+  },
+  {
+    slug: "scenario",
+    term: "Scenario",
+    simpleDefinition:
+      "A possible situation used for planning or testing.",
+    example: "Planning what happens if a system goes down.",
+    analogy: "Think of it like a \"what if\" story.",
+    relatedTerms: ["planning", "risk", "forecast"],
+    category: "practical",
+  },
 ];
