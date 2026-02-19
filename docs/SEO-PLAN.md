@@ -1,4 +1,4 @@
-# Sage SEO Plan
+# Sage AI SEO Plan
 **Website:** https://ai-made-simple-three.vercel.app  
 **Audience:** Adults aged 60-85, UK-focused  
 **Last updated:** 19 February 2026
@@ -173,70 +173,70 @@
 ## 4. On-Page SEO Checklist
 
 ### Homepage (/)
-- **Title tag:** Sage - AI Explained Simply for Older Adults
-- **Meta description:** Learn about artificial intelligence in plain English. Sage helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.
+- **Title tag:** Sage AI - AI Explained Simply for Older Adults
+- **Meta description:** Learn about artificial intelligence in plain English. Sage AI helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.
 - **H1:** Your Friendly Guide to AI
 - **Internal links:** Link to /what-is-ai, /stay-safe, /practical-uses from main content
-- **Image alt texts:** "Sage logo - friendly AI guide for older adults"
+- **Image alt texts:** "Sage AI logo - friendly AI guide for older adults"
 
 ### /what-is-ai
-- **Title tag:** What is AI? A Simple Explanation for Beginners | Sage
+- **Title tag:** What is AI? A Simple Explanation for Beginners | Sage AI
 - **Meta description:** Wondering what AI actually is? We explain artificial intelligence in plain English, with everyday examples you already use. No jargon, no tech speak.
 - **H1:** What is AI?
 - **Internal links:** Link to /ai-you-already-use, /common-fears, /glossary
 - **Image alt texts:** Describe each illustration specifically (e.g., "diagram showing how AI learns from data like a person learns from experience")
 
 ### /stay-safe
-- **Title tag:** Is AI Safe? How to Protect Yourself Online | Sage
+- **Title tag:** Is AI Safe? How to Protect Yourself Online | Sage AI
 - **Meta description:** Worried about AI safety and privacy? Learn how to use AI tools safely, spot scams, and protect your personal information. Written for over-60s.
 - **H1:** Staying Safe with AI
 - **Internal links:** Link to /what-is-ai, /common-fears, future scam articles
 - **Image alt texts:** "padlock icon representing online safety" / "example of a scam email"
 
 ### /practical-uses
-- **Title tag:** Practical Uses of AI in Everyday Life | Sage
+- **Title tag:** Practical Uses of AI in Everyday Life | Sage AI
 - **Meta description:** Discover how AI can help with everyday tasks like writing letters, planning meals, and finding information. Practical tips for older adults.
 - **H1:** Practical Uses of AI
 - **Internal links:** Link to /try-ai-now, /what-is-ai, future hobby article
 - **Image alt texts:** Describe specific use cases shown
 
 ### /ai-you-already-use
-- **Title tag:** AI You Already Use Every Day (Without Knowing) | Sage
+- **Title tag:** AI You Already Use Every Day (Without Knowing) | Sage AI
 - **Meta description:** You have been using AI for years without realising it. From spam filters to sat navs, discover the AI tools already in your life.
 - **H1:** AI You Already Use
 - **Internal links:** Link to /what-is-ai, /practical-uses
 - **Image alt texts:** "smartphone showing autocorrect feature" / "smart speaker on a kitchen counter"
 
 ### /common-fears
-- **Title tag:** Common Fears About AI Answered Honestly | Sage
+- **Title tag:** Common Fears About AI Answered Honestly | Sage AI
 - **Meta description:** Will AI take over? Is it listening to me? We answer the most common fears about artificial intelligence with honesty and plain English.
 - **H1:** Common Fears About AI
 - **Internal links:** Link to /stay-safe, /what-is-ai, /for-families
 - **Image alt texts:** Describe illustrations of each fear being addressed
 
 ### /glossary
-- **Title tag:** AI Glossary - Technical Terms in Plain English | Sage
+- **Title tag:** AI Glossary - Technical Terms in Plain English | Sage AI
 - **Meta description:** Confused by AI jargon? Our glossary explains terms like algorithm, machine learning, and chatbot in everyday language anyone can understand.
 - **H1:** AI Glossary
 - **Internal links:** Link to relevant pages for each term (e.g., "chatbot" links to /what-is-ai)
 - **Image alt texts:** Not applicable (text-heavy page)
 
 ### /for-families
-- **Title tag:** Helping Your Parents Understand AI | Sage
+- **Title tag:** Helping Your Parents Understand AI | Sage AI
 - **Meta description:** Want to help an older relative understand AI? Our guide for families offers tips on explaining technology with patience and clarity.
 - **H1:** A Guide for Families
 - **Internal links:** Link to /what-is-ai, /common-fears, /stay-safe
 - **Image alt texts:** "family members looking at a tablet together"
 
 ### /learn
-- **Title tag:** Learn About AI - Free Learning Path for Beginners | Sage
+- **Title tag:** Learn About AI - Free Learning Path for Beginners | Sage AI
 - **Meta description:** Start your AI learning journey here. Our step-by-step path takes you from "what is AI?" to using it confidently, at your own pace.
 - **H1:** Your Learning Path
 - **Internal links:** Sequential links through all lesson pages
 - **Image alt texts:** "learning path showing progress through AI topics"
 
 ### /try-ai-now
-- **Title tag:** Try AI Now - Chat with AI in a Safe Space | Sage
+- **Title tag:** Try AI Now - Chat with AI in a Safe Space | Sage AI
 - **Meta description:** Ready to try AI for yourself? Have a conversation with our friendly chatbot in a safe, private space. No sign-up needed.
 - **H1:** Try AI Now
 - **Internal links:** Link to /what-is-ai, /stay-safe, /practical-uses
@@ -266,7 +266,7 @@ Add structured data to every page:
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Sage",
+  "name": "Sage AI",
   "description": "AI explained simply for older adults",
   "url": "https://ai-made-simple-three.vercel.app"
 }
@@ -279,7 +279,7 @@ For each article/guide page, add:
   "@type": "Article",
   "headline": "What is AI?",
   "description": "A simple explanation of artificial intelligence for beginners",
-  "author": {"@type": "Organization", "name": "Sage"},
+  "author": {"@type": "Organization", "name": "Sage AI"},
   "datePublished": "2026-01-15",
   "audience": {
     "@type": "Audience",
@@ -330,11 +330,11 @@ Sitemap: https://ai-made-simple-three.vercel.app/sitemap.xml
    - Silver Line (thesilverline.org.uk)
    - Independent Age (independentage.org)
    - U3A (u3a.org.uk) - local groups often share learning resources
-   - Contact them about linking to Sage as a free resource
+   - Contact them about linking to Sage AI as a free resource
 
 2. **Libraries and local councils**
    - Many UK libraries run digital skills courses
-   - Offer Sage as a recommended resource for their AI sessions
+   - Offer Sage AI as a recommended resource for their AI sessions
    - Contact library digital teams directly
 
 3. **NHS and health information sites**
@@ -363,7 +363,7 @@ Sitemap: https://ai-made-simple-three.vercel.app/sitemap.xml
 - **Reddit** - r/UKPersonalFinance, r/AskUK, r/elderly - share content when relevant (not spammy).
 - **Facebook groups** - Many "over 50s" and "silver surfers" groups in the UK. Share articles genuinely.
 - **Mumsnet** - The "elderly parents" forum is active. Share the family guide there.
-- **Local newspaper letters pages** - Write about AI education for older adults, mentioning Sage.
+- **Local newspaper letters pages** - Write about AI education for older adults, mentioning Sage AI.
 
 ---
 
@@ -378,7 +378,7 @@ Every article should follow this pattern:
 3. **Body sections** - Use H2 headings for main sections, H3 for subsections. Keep paragraphs short (2-4 sentences max).
 4. **Practical examples** - Every concept needs a real-world example the reader can relate to.
 5. **Safety note** (where relevant) - A boxed reminder about staying safe.
-6. **What to do next** - End with a clear call to action linking to another page on Sage.
+6. **What to do next** - End with a clear call to action linking to another page on Sage AI.
 
 ### Word Counts
 
@@ -399,7 +399,7 @@ Longer is not always better. Our audience values clarity over completeness. If y
 
 ### Internal Linking Rules
 
-- Every article links to at least 2 other Sage pages.
+- Every article links to at least 2 other Sage AI pages.
 - Link using descriptive anchor text, not "click here." Good: "read our guide to staying safe with AI." Bad: "click here for more."
 - The learning path (/learn) should link sequentially through all content.
 - New blog posts should link back to relevant core pages.

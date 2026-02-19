@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cookie Policy - Sage",
-  description: "How Sage uses cookies and how you can manage them.",
+  title: "Cookie Policy - Sage AI",
+  description: "How Sage AI uses cookies and how you can manage them.",
 };
 
 export default function CookiePolicyPage() {
@@ -14,7 +14,7 @@ export default function CookiePolicyPage() {
       <p className="text-base mb-8" style={{ color: "#6B7280" }}>Last updated: 19 February 2026</p>
 
       <p className="text-body mb-6">
-        This page explains what cookies are, which ones Sage uses, and how you can manage them. We have kept it as straightforward as possible.
+        This page explains what cookies are, which ones Sage AI uses, and how you can manage them. We have kept it as straightforward as possible.
       </p>
 
       <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>What are cookies?</h2>
@@ -22,7 +22,7 @@ export default function CookiePolicyPage() {
         Cookies are small text files that websites save on your device (computer, tablet, or phone). They help websites remember things about your visit, like your preferences. Not all cookies are the same. Some are necessary for a site to work, while others are used for things like analytics.
       </p>
 
-      <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>What Sage uses</h2>
+      <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>What Sage AI uses</h2>
 
       <h3 className="text-h3 font-bold mt-6 mb-3" style={{ color: "#2D5A3D" }}>Google Analytics (optional)</h3>
       <p className="text-body mb-4">
@@ -64,7 +64,7 @@ export default function CookiePolicyPage() {
 
       <h3 className="text-h3 font-bold mt-6 mb-3" style={{ color: "#2D5A3D" }}>Local storage (not cookies, but similar)</h3>
       <p className="text-body mb-4">
-        Sage also uses your browser&apos;s local storage to save a few things on your device. Local storage is similar to cookies but the data never gets sent to our servers. It stays entirely on your device.
+        Sage AI also uses your browser&apos;s local storage to save a few things on your device. Local storage is similar to cookies but the data never gets sent to our servers. It stays entirely on your device.
       </p>
 
       <div className="overflow-x-auto mb-6">
@@ -90,7 +90,7 @@ export default function CookiePolicyPage() {
 
       <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>Third-party cookies</h2>
       <p className="text-body mb-6">
-        The only third-party cookies on Sage come from Google Analytics, and only if you accept them. We do not use advertising cookies, social media tracking pixels, or any other third-party trackers.
+        The only third-party cookies on Sage AI come from Google Analytics, and only if you accept them. We do not use advertising cookies, social media tracking pixels, or any other third-party trackers.
       </p>
 
       <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>How to manage cookies</h2>
@@ -98,7 +98,7 @@ export default function CookiePolicyPage() {
         You have several options:
       </p>
       <ul className="text-body mb-6 list-disc pl-6 space-y-3">
-        <li><strong>Our cookie banner:</strong> When you first visit Sage, you can choose to accept or decline cookies. If you declined and want to change your mind (or the other way round), clear your browser&apos;s local storage for this site and refresh the page. The banner will appear again.</li>
+        <li><strong>Our cookie banner:</strong> When you first visit Sage AI, you can choose to accept or decline cookies. If you declined and want to change your mind (or the other way round), clear your browser&apos;s local storage for this site and refresh the page. The banner will appear again.</li>
         <li><strong>Browser settings:</strong> Most browsers let you block or delete cookies. Look in your browser&apos;s settings or preferences, usually under &quot;Privacy&quot; or &quot;Security&quot;.</li>
         <li><strong>Google&apos;s opt-out:</strong> You can install the <a href="https://tools.google.com/dlpage/gaoptout" className="underline" style={{ color: "#2D5A3D" }}>Google Analytics opt-out browser add-on</a> to prevent Google Analytics from collecting data on any website.</li>
       </ul>
@@ -110,7 +110,7 @@ export default function CookiePolicyPage() {
 
       <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>Questions?</h2>
       <p className="text-body mb-6">
-        If you have questions about cookies on Sage, email us at{" "}
+        If you have questions about cookies on Sage AI, email us at{" "}
         <a href="mailto:hello@hellosage.co.uk" className="font-semibold underline" style={{ color: "#2D5A3D" }}>hello@hellosage.co.uk</a>.
       </p>
     </article>

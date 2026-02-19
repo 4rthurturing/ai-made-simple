@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Sage",
-  description: "How Sage collects, uses, and protects your personal data. Written in plain English.",
+  title: "Privacy Policy - Sage AI",
+  description: "How Sage AI collects, uses, and protects your personal data. Written in plain English.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -19,7 +19,7 @@ export default function PrivacyPolicyPage() {
 
       <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>Who we are</h2>
       <p className="text-body mb-6">
-        Sage is a free educational website that helps older adults understand artificial intelligence. It is operated by David. If you need to contact us about your data, you can email{" "}
+        Sage AI is a free educational website that helps older adults understand artificial intelligence. It is operated by David. If you need to contact us about your data, you can email{" "}
         <a href="mailto:hello@hellosage.co.uk" className="font-semibold underline" style={{ color: "#2D5A3D" }}>hello@hellosage.co.uk</a>.
       </p>
 
@@ -79,12 +79,12 @@ export default function PrivacyPolicyPage() {
 
       <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>Data security</h2>
       <p className="text-body mb-6">
-        The site is served over HTTPS, which means your connection is encrypted. We do not collect passwords or payment details because Sage is a completely free service with no accounts.
+        The site is served over HTTPS, which means your connection is encrypted. We do not collect passwords or payment details because Sage AI is a completely free service with no accounts.
       </p>
 
       <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>Children</h2>
       <p className="text-body mb-6">
-        Sage is designed for adults. We do not knowingly collect data from children under 13.
+        Sage AI is designed for adults. We do not knowingly collect data from children under 13.
       </p>
 
       <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>Changes to this policy</h2>

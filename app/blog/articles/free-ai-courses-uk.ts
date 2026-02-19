@@ -34,7 +34,7 @@ Age UK has a growing collection of guides on digital skills, including some that
 <p><strong>Good Things Foundation</strong> (goodthingsfoundation.org)<br/>
 This charity runs the National Databank and National Device Scheme. They also provide free digital skills resources through their network of community centres across the UK. Some locations offer specific AI awareness sessions.</p>
 
-<p><strong>Sage</strong> (that's us!)<br/>
+<p><strong>Sage AI</strong> (that's us!)<br/>
 You're already here, so you know what we do. Our entire site is free, designed for over-60s, and written in plain English. Start with our <a href="/what-is-ai">What is AI?</a> page and work through the <a href="/learn">learning path</a> at your own speed.</p>
 
 <h2>In-Person Learning</h2>
@@ -79,7 +79,7 @@ A free website by Good Things Foundation that teaches basic digital skills. It s
 <p>If you're not sure, here's a simple plan:</p>
 
 <ol>
-<li>Read through our <a href="/what-is-ai">What is AI?</a> page here on Sage</li>
+<li>Read through our <a href="/what-is-ai">What is AI?</a> page here on Sage AI</li>
 <li>Have a go with <a href="/blog/how-to-use-chatgpt">ChatGPT using our beginner's guide</a></li>
 <li>Try the Elements of AI course for a deeper understanding</li>
 <li>Check your local library or U3A for in-person sessions if you'd like to learn with others</li>

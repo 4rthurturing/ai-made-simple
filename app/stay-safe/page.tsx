@@ -5,7 +5,7 @@ import { staySafeQuiz } from "../components/quizzes";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Is AI Safe? How to Protect Yourself Online | Sage",
+  title: "Is AI Safe? How to Protect Yourself Online | Sage AI",
   description: "Worried about AI safety and privacy? Learn how to use AI tools safely, spot scams, and protect your personal information. Written for over-60s.",
 };
 

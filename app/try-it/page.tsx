@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Try AI Activities | Sage",
+  title: "Try AI Activities | Sage AI",
   description: "Simple AI activities and exercises to help you get hands-on experience with artificial intelligence. No technical knowledge needed.",
 };
 

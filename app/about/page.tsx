@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Sage - AI Explained Simply",
-  description: "Sage helps older adults understand artificial intelligence with clear, friendly guidance. No jargon, no pressure.",
+  title: "About Sage AI - AI Explained Simply",
+  description: "Sage AI helps older adults understand artificial intelligence with clear, friendly guidance. No jargon, no pressure.",
 };
 
 export default function AboutPage() {
   return (
     <article className="prose max-w-content mx-auto">
       <h1 className="text-h1 font-bold mb-6" style={{ color: "#2D5A3D" }}>
-        About Sage
+        About Sage AI
       </h1>
 
       <p className="text-body mb-6">
-        Sage exists because everyone deserves to understand the technology shaping the world around them.
+        Sage AI exists because everyone deserves to understand the technology shaping the world around them.
       </p>
 
       <p className="text-body mb-6">
@@ -25,11 +25,11 @@ export default function AboutPage() {
       </p>
 
       <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>
-        What Sage does
+        What Sage AI does
       </h2>
 
       <p className="text-body mb-6">
-        Sage explains artificial intelligence in plain English. We break down what AI is, how it works, where you are already using it, and how to stay safe. Every page is written for people who did not grow up with computers and smartphones. We keep things clear, honest, and practical.
+        Sage AI explains artificial intelligence in plain English. We break down what AI is, how it works, where you are already using it, and how to stay safe. Every page is written for people who did not grow up with computers and smartphones. We keep things clear, honest, and practical.
       </p>
 
       <p className="text-body mb-6">
@@ -41,11 +41,11 @@ export default function AboutPage() {
       </h2>
 
       <p className="text-body mb-6">
-        Sage was created by David because he saw a gap. Older adults were being left out of the conversation about AI, even though they are affected by it every day. He wanted to build something that treated people with respect and gave them the knowledge to feel confident, not overwhelmed.
+        Sage AI was created by David because he saw a gap. Older adults were being left out of the conversation about AI, even though they are affected by it every day. He wanted to build something that treated people with respect and gave them the knowledge to feel confident, not overwhelmed.
       </p>
 
       <p className="text-body mb-6">
-        This is a free resource. We do not sell anything, and we do not sell your data. Sage is here to help, plain and simple.
+        This is a free resource. We do not sell anything, and we do not sell your data. Sage AI is here to help, plain and simple.
       </p>
 
       <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>

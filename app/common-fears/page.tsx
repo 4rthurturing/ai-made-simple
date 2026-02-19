@@ -4,7 +4,7 @@ import { commonFearsQuiz } from "../components/quizzes";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Common Fears About AI Answered Honestly | Sage",
+  title: "Common Fears About AI Answered Honestly | Sage AI",
   description: "Will AI take over? Is it listening to me? We answer the most common fears about artificial intelligence with honesty and plain English.",
 };
 

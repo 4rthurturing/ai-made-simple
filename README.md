@@ -1,8 +1,8 @@
-# 🌿 Sage — Your Friendly Guide to AI
+# 🌿 Sage AI — Your Friendly Guide to AI
 
 **AI explained by humans, for humans.**
 
-Sage is a web app designed to help older adults understand and feel comfortable with artificial intelligence. No jargon, no tech speak — just clear, honest explanations.
+Sage AI is a web app designed to help older adults understand and feel comfortable with artificial intelligence. No jargon, no tech speak — just clear, honest explanations.
 
 ## Features
 

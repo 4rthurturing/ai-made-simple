@@ -3,7 +3,7 @@ import ChatBot from "./ChatBot";
 import LessonNav from "../components/LessonNav";
 
 export const metadata: Metadata = {
-  title: "Try AI Now - Chat with AI in a Safe Space | Sage",
+  title: "Try AI Now - Chat with AI in a Safe Space | Sage AI",
   description: "Ready to try AI for yourself? Have a conversation with our friendly chatbot in a safe, private space. No sign-up needed.",
 };
 

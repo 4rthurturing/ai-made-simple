@@ -3,7 +3,7 @@ import { articles } from "./articles";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog - AI Tips, Guides & Safety Advice | Sage",
+  title: "Blog - AI Tips, Guides & Safety Advice | Sage AI",
   description:
     "Practical articles about AI for older adults. Learn how to use ChatGPT, spot scams, stay safe online, and make the most of artificial intelligence.",
 };

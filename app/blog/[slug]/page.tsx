@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticleBySlug(slug);
   if (!article) return {};
   return {
-    title: `${article.title} | Sage`,
+    title: `${article.title} | Sage AI`,
     description: article.description,
     keywords: article.keywords,
     openGraph: {
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: article.description,
       type: "article",
       publishedTime: article.date,
-      authors: ["Sage"],
+      authors: ["Sage AI"],
     },
     twitter: {
       card: "summary_large_image",
@@ -44,11 +44,11 @@ export default async function BlogPost({ params }: Props) {
     "@type": "Article",
     headline: article.title,
     description: article.description,
-    author: { "@type": "Organization", name: "Sage" },
+    author: { "@type": "Organization", name: "Sage AI" },
     datePublished: article.date,
     publisher: {
       "@type": "Organization",
-      name: "Sage",
+      name: "Sage AI",
       url: "https://hellosage.co.uk",
     },
     audience: {

@@ -10,24 +10,24 @@ import GoogleAnalyticsLoader from "./components/GoogleAnalyticsLoader";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sage - AI Explained Simply for Older Adults",
+  title: "Sage AI - AI Explained Simply for Older Adults",
   description:
-    "Learn about artificial intelligence in plain English. Sage helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.",
+    "Learn about artificial intelligence in plain English. Sage AI helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.",
   metadataBase: new URL("https://hellosage.co.uk"),
   openGraph: {
-    title: "Sage - AI Explained Simply for Older Adults",
+    title: "Sage AI - AI Explained Simply for Older Adults",
     description:
-      "Learn about artificial intelligence in plain English. Sage helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.",
+      "Learn about artificial intelligence in plain English. Sage AI helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.",
     url: "https://hellosage.co.uk",
-    siteName: "Sage",
+    siteName: "Sage AI",
     type: "website",
     locale: "en_GB",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sage - AI Explained Simply for Older Adults",
+    title: "Sage AI - AI Explained Simply for Older Adults",
     description:
-      "Learn about artificial intelligence in plain English. Sage helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.",
+      "Learn about artificial intelligence in plain English. Sage AI helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.",
   },
   robots: {
     index: true,
@@ -48,13 +48,13 @@ const schemaOrg = {
   "@graph": [
     {
       "@type": "Organization",
-      name: "Sage",
+      name: "Sage AI",
       url: "https://hellosage.co.uk",
       description: "AI explained simply for older adults",
     },
     {
       "@type": "WebSite",
-      name: "Sage",
+      name: "Sage AI",
       description: "AI explained simply for older adults",
       url: "https://hellosage.co.uk",
     },
@@ -96,7 +96,7 @@ export default function RootLayout({
               className="text-3xl font-bold tracking-tight hover:opacity-80 transition-opacity"
               style={{ color: "#2D5A3D" }}
             >
-              🌿 Sage
+              🌿 Sage AI
             </Link>
             <MobileNav />
           </div>

@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sage - AI Explained Simply for Older Adults",
-  description: "Learn about artificial intelligence in plain English. Sage helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.",
+  title: "Sage AI - AI Explained Simply for Older Adults",
+  description: "Learn about artificial intelligence in plain English. Sage AI helps over-60s understand AI, stay safe online, and use tools like ChatGPT with confidence.",
 };
 
 export default function Home() {

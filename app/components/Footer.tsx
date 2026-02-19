@@ -17,7 +17,7 @@ const resourceLinks = [
 ];
 
 const aboutLinks = [
-  { href: "/about", label: "About Sage" },
+  { href: "/about", label: "About Sage AI" },
   { href: "/privacy-policy", label: "Privacy Policy" },
   { href: "/terms", label: "Terms of Use" },
   { href: "/cookie-policy", label: "Cookie Policy" },
@@ -52,7 +52,7 @@ export default function Footer() {
         {/* About section */}
         <div className="mb-10">
           <Link href="/" className="text-2xl font-bold hover:opacity-80 transition-opacity">
-            🌿 Sage
+            🌿 Sage AI
           </Link>
           <p className="text-base mt-2" style={{ color: "#D1E1D3" }}>
             AI explained simply for older adults. No jargon, no pressure, just friendly guidance.
@@ -70,7 +70,7 @@ export default function Footer() {
         <div className="border-t pt-6" style={{ borderColor: "#4A7C59" }}>
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-sm" style={{ color: "#A3C3A7" }}>
-              &copy; 2026 Sage. All rights reserved.
+              &copy; 2026 Sage AI. All rights reserved.
             </p>
             {/* Social links placeholder */}
             <div className="flex gap-4">

@@ -4,7 +4,7 @@ import { whatIsAiQuiz } from "../components/quizzes";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "What is AI? A Simple Explanation for Beginners | Sage",
+  title: "What is AI? A Simple Explanation for Beginners | Sage AI",
   description: "Wondering what AI actually is? We explain artificial intelligence in plain English, with everyday examples you already use. No jargon, no tech speak.",
 };
 

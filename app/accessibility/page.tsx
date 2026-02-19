@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Accessibility - Sage",
-  description: "Our commitment to making Sage accessible to everyone.",
+  title: "Accessibility - Sage AI",
+  description: "Our commitment to making Sage AI accessible to everyone.",
 };
 
 export default function AccessibilityPage() {
@@ -13,7 +13,7 @@ export default function AccessibilityPage() {
       </h1>
 
       <p className="text-body mb-6">
-        We want Sage to be usable by everyone, regardless of ability or how you access the internet. Accessibility is not an afterthought for us. It is part of how we build the site.
+        We want Sage AI to be usable by everyone, regardless of ability or how you access the internet. Accessibility is not an afterthought for us. It is part of how we build the site.
       </p>
 
       <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>What we do</h2>
@@ -38,7 +38,7 @@ export default function AccessibilityPage() {
 
       <h2 className="text-h2 font-bold mt-10 mb-4" style={{ color: "#2D5A3D" }}>Feedback</h2>
       <p className="text-body mb-6">
-        Your feedback helps us improve. If you have trouble using any part of Sage, or if you have suggestions for how we can do better, please email us at{" "}
+        Your feedback helps us improve. If you have trouble using any part of Sage AI, or if you have suggestions for how we can do better, please email us at{" "}
         <a href="mailto:hello@hellosage.co.uk" className="font-semibold underline" style={{ color: "#2D5A3D" }}>hello@hellosage.co.uk</a>.
       </p>
     </article>

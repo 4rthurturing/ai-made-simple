@@ -8,7 +8,7 @@ interface Message {
 }
 
 const WELCOME =
-  "Hello! I'm Sage, your friendly AI assistant. Try asking me anything. For example: 'What can AI help me with?' or 'Is AI safe to use?'";
+  "Hello! I'm Sage AI, your friendly AI assistant. Try asking me anything. For example: 'What can AI help me with?' or 'Is AI safe to use?'";
 
 export default function ChatBot() {
   const [messages, setMessages] = useState<Message[]>([
@@ -92,7 +92,7 @@ export default function ChatBot() {
               className="rounded-card px-5 py-3 text-body"
               style={{ backgroundColor: "white", color: "#6B7280" }}
             >
-              Sage is thinking...
+              Sage AI is thinking...
             </div>
           </div>
         )}

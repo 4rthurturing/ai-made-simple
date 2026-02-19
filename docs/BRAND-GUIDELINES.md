@@ -1,9 +1,9 @@
-# Sage - Brand Guidelines
+# Sage AI - Brand Guidelines
 
 ## 1. Brand Overview
 
 ### Name
-**Sage** - Your Friendly Guide to AI
+**Sage AI** - Your Friendly Guide to AI
 
 ### Tagline
 "AI explained by humans, for humans."
@@ -22,7 +22,7 @@ A world where no one is left behind by technology. Where age is never a barrier 
 5. **Honesty** - We tell the truth about AI - the good, the limitations, and the risks.
 
 ### Brand Personality
-Sage is like a patient, knowledgeable friend who happens to understand technology really well. Think: the person in the family everyone calls when they need help with their phone - but without the sighing or eye-rolling.
+Sage AI is like a patient, knowledgeable friend who happens to understand technology really well. Think: the person in the family everyone calls when they need help with their phone - but without the sighing or eye-rolling.
 
 - Warm, never cold
 - Clear, never clever
@@ -40,14 +40,14 @@ Sage is like a patient, knowledgeable friend who happens to understand technolog
 ## 2. Visual Identity
 
 ### Logo
-The Sage logo combines a leaf icon (🌿) with clean, rounded typography. The leaf represents growth, wisdom, and the natural simplicity of the brand.
+The Sage AI logo combines a leaf icon (🌿) with clean, rounded typography. The leaf represents growth, wisdom, and the natural simplicity of the brand.
 
 **Logo Variations:**
 - **Primary:** Full logo (icon + wordmark) - for headers, hero sections
 - **Secondary:** Wordmark only - for tight spaces
 - **Icon:** Leaf only - for favicons, app icons, social avatars
 
-**Clear Space:** Maintain padding equal to the height of the "S" in Sage around all sides.
+**Clear Space:** Maintain padding equal to the height of the "S" in Sage AI around all sides.
 
 **Minimum Size:** Never display the full logo smaller than 120px wide. Icon minimum: 32px.
 
@@ -120,7 +120,7 @@ The Sage logo combines a leaf icon (🌿) with clean, rounded typography. The le
 ## 3. Voice & Tone
 
 ### Brand Voice
-Sage speaks like a patient, warm friend. We use:
+Sage AI speaks like a patient, warm friend. We use:
 - **Short sentences.** Like this.
 - **Simple words.** "Use" not "utilise". "Help" not "facilitate".
 - **Active voice.** "AI can help you write emails" not "Emails can be written with AI assistance".
@@ -217,10 +217,10 @@ Sage speaks like a patient, warm friend. We use:
 - Always use the approved colour palette
 - Always use Inter font family
 - Always maintain minimum text sizes
-- Always write in the Sage voice
+- Always write in the Sage AI voice
 - Review all public-facing content against these guidelines
 
 ---
 
-*Sage Brand Guidelines v1.0 - February 2026*
+*Sage AI Brand Guidelines v1.0 - February 2026*
 *Created by David & Arthur*
