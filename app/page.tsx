@@ -9,26 +9,31 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="relative overflow-x-hidden">
-      <section className="relative text-center py-10 md:py-16 overflow-hidden rounded-[28px] mb-12">
-        <div className="hero-blobs" />
-        <div className="relative z-10 px-4">
-          <p className="text-6xl mb-6">🌿</p>
-          <h1 className="text-[46px] md:text-[64px] font-bold tracking-tight mb-4 gradient-text animate-gradient-shift">
-            You&apos;ve Got This.
+      <section className="relative text-center py-14 md:py-24 overflow-hidden rounded-[28px] mb-12 bg-gradient-to-br from-[#1E3D29] to-[#2D5A3D]">
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[60%] rounded-full bg-[radial-gradient(circle,rgba(212,168,67,0.4),transparent_70%)]" />
+          <div className="absolute bottom-[-20%] right-[-10%] w-[50%] h-[50%] rounded-full bg-[radial-gradient(circle,rgba(74,124,89,0.5),transparent_70%)]" />
+        </div>
+        <div className="relative z-10 px-6">
+          <p className="text-sm font-semibold uppercase tracking-widest text-[#D4A843] mb-4">
+            For over 60s &amp; their families
+          </p>
+          <h1 className="text-[38px] md:text-[56px] font-bold tracking-tight mb-5 text-white leading-[1.1]">
+            Learn AI Your Way
           </h1>
-          <h2 className="text-h3 text-warm-grey mb-8">
-            Learn about AI in plain English. No jargon, no pressure.
-          </h2>
-          <div className="flex flex-wrap items-center justify-center gap-4">
+          <p className="text-lg md:text-xl text-white/80 mb-10 max-w-md mx-auto">
+            Plain English guides. No jargon, no pressure, no tech skills needed.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href="/what-is-ai"
-              className="px-6 py-3 rounded-btn text-lg font-bold text-white bg-[#1E3D29] hover:bg-[#163020] transition-colors shadow-lg"
+              className="w-full sm:w-auto px-8 py-4 rounded-btn text-lg font-bold text-[#1E3D29] bg-white hover:bg-[#F0F5F1] transition-colors shadow-lg text-center"
             >
-              Start with the basics
+              Start with the basics →
             </Link>
             <Link
               href="/learn"
-              className="px-6 py-3 rounded-btn text-lg font-semibold text-[#2D5A3D] border border-sage-300 bg-white/70 backdrop-blur hover:bg-white transition-colors"
+              className="w-full sm:w-auto px-8 py-4 rounded-btn text-lg font-semibold text-white border-2 border-white/30 hover:border-white/60 hover:bg-white/10 transition-colors text-center"
             >
               See the learning path
             </Link>
