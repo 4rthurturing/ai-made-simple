@@ -16,9 +16,9 @@ export default function Home() {
         </div>
         <div className="relative z-10 px-6">
           <p className="text-sm font-semibold uppercase tracking-widest text-[#D4A843] mb-4">
-            For over 60s &amp; their families
+            For everyone &amp; their families
           </p>
-          <h1 className="text-[38px] md:text-[56px] font-bold tracking-tight mb-5 text-white leading-[1.1]">
+          <h1 className="text-[34px] md:text-[56px] font-bold tracking-tight mb-5 text-white leading-[1.1] whitespace-nowrap">
             Learn AI Your Way
           </h1>
           <p className="text-lg md:text-xl text-white/80 mb-10 max-w-md mx-auto">
