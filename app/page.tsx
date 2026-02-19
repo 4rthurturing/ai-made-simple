@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div className="relative overflow-x-hidden">
       <section className="relative text-center py-10 md:py-16 overflow-hidden rounded-[28px] mb-12">
         <div className="hero-blobs" />
         <div className="relative z-10 px-4">

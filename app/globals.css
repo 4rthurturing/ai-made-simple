@@ -190,8 +190,8 @@ a:hover {
 .hero-blobs::after {
   content: "";
   position: absolute;
-  width: 420px;
-  height: 420px;
+  width: min(420px, 80vw);
+  height: min(420px, 80vw);
   border-radius: 999px;
   filter: blur(35px);
   opacity: 0.6;

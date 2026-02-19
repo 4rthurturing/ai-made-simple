@@ -75,7 +75,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.className} min-h-screen text-[#1a1a1a] bg-[linear-gradient(135deg,#FAFAF5_0%,#F0F5F1_100%)]`}
+        className={`${inter.className} min-h-screen text-[#1a1a1a] bg-[linear-gradient(135deg,#FAFAF5_0%,#F0F5F1_100%)] overflow-x-hidden`}
       >
         {/* Skip to content for accessibility */}
         <a
