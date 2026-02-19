@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import Link from "next/link";
 import MobileNav from "./components/MobileNav";
+import Footer from "./components/Footer";
+import CookieConsent from "./components/CookieConsent";
+import GoogleAnalyticsLoader from "./components/GoogleAnalyticsLoader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -104,15 +106,9 @@ export default function RootLayout({
           {children}
         </main>
 
-        <footer className="text-center py-10 border-t mt-12" style={{ color: "#6B7280" }}>
-          <p className="text-lg">
-            🌿 <strong>Sage</strong> · AI explained by humans, for humans.
-          </p>
-          <p className="text-base mt-2">
-            Made with ❤️ by David & Arthur · © 2026
-          </p>
-        </footer>
-        <GoogleAnalytics gaId="G-4MS4297N30" />
+        <Footer />
+        <CookieConsent />
+        <GoogleAnalyticsLoader />
       </body>
     </html>
   );
