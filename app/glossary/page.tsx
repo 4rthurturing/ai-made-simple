@@ -1,179 +1,115 @@
-import type { Metadata } from "next";
+"use client";
 
-export const metadata: Metadata = {
-  title: "AI Glossary - Technical Terms in Plain English | Sage AI",
-  description: "Confused by AI jargon? Our glossary explains terms like algorithm, machine learning, and chatbot in everyday language anyone can understand.",
-};
+import Link from "next/link";
+import { useMemo, useState } from "react";
+import { glossaryTerms } from "./terms";
 
-export default function Glossary() {
-  const terms = [
-    {
-      term: "AI (Artificial Intelligence)",
-      definition:
-        "A computer program that can learn from information and respond in a human-like way. Think of it as a very knowledgeable assistant that never sleeps.",
-    },
-    {
-      term: "Algorithm",
-      definition:
-        "A set of instructions that tells a computer what to do. A recipe is an algorithm for cooking. AI uses very complex algorithms to process information and give you answers.",
-    },
-    {
-      term: "Alexa",
-      definition:
-        "Amazon's voice assistant. It lives inside Amazon Echo speakers and other devices. You talk to it by saying \"Alexa\" followed by your question or command.",
-    },
-    {
-      term: "Bias",
-      definition:
-        "When AI gives unfair or one-sided results because it learned from information that contained human prejudices. AI companies work to reduce this, but it is still a problem.",
-    },
-    {
-      term: "Chatbot",
-      definition:
-        "Any computer program you can have a text conversation with. AI assistants like ChatGPT and Claude are very advanced chatbots. The ones on customer service websites are simpler versions.",
-    },
-    {
-      term: "ChatGPT",
-      definition:
-        "One of the most popular AI assistants, made by a company called OpenAI. You can chat with it by typing questions, and it responds in plain English. It has free and paid versions.",
-    },
-    {
-      term: "Claude",
-      definition:
-        "An AI assistant made by a company called Anthropic. Similar to ChatGPT but with a different style. Like choosing between different brands of the same product.",
-    },
-    {
-      term: "The Cloud",
-      definition:
-        "Just someone else's computer. When an app stores things \"in the cloud,\" it means your information is saved on a computer somewhere else, accessible through the internet. You already use the cloud if you have email.",
-    },
-    {
-      term: "Data",
-      definition:
-        "Information. When people say AI uses \"your data,\" they mean information about you, like what you type, click, or share online.",
-    },
-    {
-      term: "Deepfake",
-      definition:
-        "A video, image, or audio clip created or changed by AI to look and sound real, but which is actually fake. Used to spread misinformation. Always check surprising videos with trusted news sources.",
-    },
-    {
-      term: "Fine-tuning",
-      definition:
-        "Teaching an AI model to be better at a specific task. It is like how a general doctor might do extra training to become a specialist. The AI starts with broad knowledge and then learns to focus on a particular area.",
-    },
-    {
-      term: "Gemini",
-      definition:
-        "Google's AI assistant. It is built into Google Search and is available as a standalone app. Free to use with a Google account.",
-    },
-    {
-      term: "Generative AI",
-      definition:
-        "AI that can create new content, such as text, images, music, or video. ChatGPT generates text. DALL-E generates images. This is the type of AI that has been in the news most recently.",
-    },
-    {
-      term: "Hallucination",
-      definition:
-        "When AI makes something up and presents it as fact. It might invent a book that does not exist, or state a wrong date with complete confidence. This is why you should always check important information from AI.",
-    },
-    {
-      term: "LLM (Large Language Model)",
-      definition:
-        "The technology behind AI assistants like ChatGPT and Claude. It has been trained on enormous amounts of text so it can understand and generate language. You do not need to remember this term.",
-    },
-    {
-      term: "Machine Learning",
-      definition:
-        "How AI improves by studying lots of examples and finding patterns. Like how you learned to recognise faces as a baby, but with data instead of experience.",
-    },
-    {
-      term: "Model",
-      definition:
-        "The \"brain\" of an AI system. Different models have different abilities. GPT-4 is a model. Claude is a model. When people talk about which AI is better, they are comparing models.",
-    },
-    {
-      term: "Natural Language",
-      definition:
-        "Just normal human language, as opposed to computer code. When people say AI understands \"natural language,\" they mean you can talk to it in everyday English rather than using special commands.",
-    },
-    {
-      term: "Neural Network",
-      definition:
-        "A type of computer system loosely inspired by how the human brain works. It is made up of layers of connected points that process information. You do not need to understand how it works to use AI.",
-    },
-    {
-      term: "Open Source",
-      definition:
-        "Software that anyone can use, study, and modify for free. Some AI models are open source, meaning their code is publicly available. This is generally considered a good thing for transparency.",
-    },
-    {
-      term: "Prompt",
-      definition:
-        "Whatever you type or say to an AI. It is just a fancy word for your question or instruction. \"What is the weather like?\" is a prompt. \"Write me a poem about my cat\" is also a prompt.",
-    },
-    {
-      term: "Siri",
-      definition:
-        "Apple's voice assistant, built into iPhones, iPads, and Macs. You activate it by saying \"Hey Siri\" or pressing a button. It uses AI to understand your voice and respond.",
-    },
-    {
-      term: "Smart Speaker",
-      definition:
-        "A speaker with a built-in voice assistant, like Amazon Echo (Alexa) or Google Nest. You talk to it to play music, set timers, ask questions, or control smart home devices.",
-    },
-    {
-      term: "Token",
-      definition:
-        "A small piece of text that AI processes. Roughly speaking, one token is about one word. AI services sometimes have limits on how many tokens you can use, which is why free versions may have restrictions.",
-    },
-    {
-      term: "Training",
-      definition:
-        "The process of teaching AI by feeding it large amounts of information. An AI is \"trained\" before you ever use it, like a student studying for years before starting work. You cannot change how it was trained.",
-    },
-    {
-      term: "Voice Assistant",
-      definition:
-        "AI you can talk to out loud, like Siri (Apple), Alexa (Amazon), or Google Assistant. They use AI to understand your speech and respond. Very handy if you find typing difficult.",
-    },
-  ];
+const categories = ["basics", "tools", "safety", "technical", "practical"] as const;
+
+export default function GlossaryPage() {
+  const [activeCategory, setActiveCategory] = useState<string>("All");
+  const [query, setQuery] = useState<string>("");
+
+  const filteredTerms = useMemo(() => {
+    const normalizedQuery = query.trim().toLowerCase();
+    const matchesCategory = (category: string) =>
+      activeCategory === "All" || category === activeCategory;
+
+    return glossaryTerms
+      .filter((term) => matchesCategory(term.category))
+      .filter((term) => {
+        if (!normalizedQuery) return true;
+        return (
+          term.term.toLowerCase().includes(normalizedQuery) ||
+          term.simpleDefinition.toLowerCase().includes(normalizedQuery)
+        );
+      })
+      .slice()
+      .sort((a, b) => a.term.localeCompare(b.term));
+  }, [activeCategory, query]);
 
   return (
-    <div>
-      <h1 className="text-h1 font-bold mb-4" style={{ color: "#2D5A3D" }}>
-        📖 Glossary
-      </h1>
-      <p className="text-body-lg mb-10" style={{ color: "#6B7280" }}>
-        All the AI buzzwords explained in plain English. No tech degree required.
-        Come back to this page whenever you see a word you do not recognise.
-      </p>
+    <div className="space-y-14">
+      <section className="relative overflow-hidden rounded-card bg-gradient-to-br from-[#1E3D29] to-[#2D5A3D] px-6 py-16 text-white shadow-[0_30px_70px_rgba(15,31,21,0.35)] sm:px-10">
+        <div className="hero-blobs" />
+        <div className="relative z-10 max-w-3xl space-y-4">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-white/70">
+            Sage AI Glossary
+          </p>
+          <h1 className="text-4xl font-semibold md:text-5xl">
+            Plain-English AI Glossary
+          </h1>
+          <p className="text-lg text-white/80 md:text-xl">
+            Simple explanations for the AI terms you hear every day. Search,
+            filter, and explore at your own pace.
+          </p>
+        </div>
+      </section>
 
-      <div className="space-y-4">
-        {terms.map((item, index) => (
-          <div
-            key={index}
-            className="rounded-card p-6 border-2"
-            style={{ backgroundColor: "#FDF2F8", borderColor: "#F9A8D4" }}
-          >
-            <h2 className="text-xl font-bold mb-2" style={{ color: "#9D174D" }}>
-              {item.term}
-            </h2>
-            <p className="text-body leading-relaxed">{item.definition}</p>
+      <section className="space-y-8">
+        <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+          <div className="flex flex-wrap gap-3">
+            {["All", ...categories].map((category) => (
+              <button
+                key={category}
+                type="button"
+                onClick={() => setActiveCategory(category)}
+                className={`rounded-full border px-4 py-2 text-sm font-semibold transition-all capitalize ${
+                  activeCategory === category
+                    ? "border-transparent bg-[#1E3D29] text-white shadow-[0_10px_25px_rgba(15,31,21,0.25)]"
+                    : "border-[#C9D8CC] bg-white/70 text-[#2D5A3D] hover:border-[#4A7C59] hover:text-[#1E3D29]"
+                }`}
+              >
+                {category}
+              </button>
+            ))}
           </div>
-        ))}
-      </div>
 
-      <div
-        className="rounded-card p-8 text-center mt-10"
-        style={{ backgroundColor: "#2D5A3D", color: "white" }}
-      >
-        <p className="text-body-lg">
-          <strong>You do not need to memorise these.</strong> Bookmark this page
-          and come back whenever you need to. Learning the jargon takes time,
-          and that is perfectly fine.
-        </p>
-      </div>
+          <label className="flex w-full max-w-md items-center gap-3 rounded-full border border-[#C9D8CC] bg-white/80 px-4 py-2 text-sm text-[#2D5A3D] shadow-[0_12px_30px_rgba(15,31,21,0.08)]">
+            <span className="text-xs font-semibold uppercase tracking-[0.2em] text-[#4A7C59]">
+              Search
+            </span>
+            <input
+              type="search"
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Find a term or definition"
+              className="w-full bg-transparent text-sm text-[#1E3D29] placeholder:text-[#6B7280] focus:outline-none"
+            />
+          </label>
+        </div>
+
+        {filteredTerms.length === 0 ? (
+          <div className="glass-card rounded-card p-10 text-center text-[#4A7C59]">
+            No terms match your search yet. Try a different word.
+          </div>
+        ) : (
+          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+            {filteredTerms.map((term) => (
+              <Link
+                key={term.slug}
+                href={`/glossary/${term.slug}`}
+                className="group shimmer-border glass-card block rounded-card p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_22px_50px_rgba(15,31,21,0.16)]"
+              >
+                <div className="flex items-start justify-between gap-4">
+                  <h2 className="text-2xl font-semibold text-[#1E3D29]">
+                    {term.term}
+                  </h2>
+                  <span className="rounded-full border border-[#C9D8CC] bg-white/70 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-[#4A7C59]">
+                    {term.category}
+                  </span>
+                </div>
+                <p className="mt-3 line-clamp-2 text-sm text-[#3D4A44]">
+                  {term.simpleDefinition}
+                </p>
+                <p className="mt-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#4A7C59]">
+                  View term
+                </p>
+              </Link>
+            ))}
+          </div>
+        )}
+      </section>
     </div>
   );
 }
