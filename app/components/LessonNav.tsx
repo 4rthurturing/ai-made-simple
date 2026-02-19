@@ -17,6 +17,7 @@ export default function LessonNav({ currentLesson }: LessonNavProps) {
       {prev ? (
         <Link
           href={prev.href}
+          scroll={true}
           className="flex-1 rounded-card p-5 transition-shadow hover:shadow-lg text-left"
           style={{
             backgroundColor: "#E8F0E9",
@@ -37,6 +38,7 @@ export default function LessonNav({ currentLesson }: LessonNavProps) {
       {next ? (
         <Link
           href={next.href}
+          scroll={true}
           className="flex-1 rounded-card p-5 transition-shadow hover:shadow-lg text-right"
           style={{
             backgroundColor: "#E8F0E9",

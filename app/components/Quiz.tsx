@@ -328,6 +328,7 @@ export default function Quiz({ title, questions, lessonNumber }: QuizProps) {
             {nextLesson && (
               <Link
                 href={nextLesson.href}
+                scroll={true}
                 className="rounded-btn px-8 py-3 font-semibold text-body transition-opacity hover:opacity-90 text-center"
                 style={{
                   backgroundColor: "#2D5A3D",
