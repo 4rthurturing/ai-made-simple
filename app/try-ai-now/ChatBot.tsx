@@ -16,8 +16,10 @@ export default function ChatBot() {
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+  const [keyboardOpen, setKeyboardOpen] = useState(false);
   const chatContainerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const inputBarRef = useRef<HTMLDivElement>(null);
   const isFirstRender = useRef(true);
 
   useEffect(() => {
@@ -30,20 +32,47 @@ export default function ChatBot() {
     }
   }, [messages]);
 
-  // On iOS, when the virtual keyboard opens it resizes the visual viewport.
-  // We listen for that and scroll the input wrapper into view.
+  // On iOS, the keyboard doesn't shrink the layout viewport.
+  // We detect it via visualViewport and fix-position the input bar.
   useEffect(() => {
     const vv = window.visualViewport;
     if (!vv) return;
 
     function onResize() {
-      if (document.activeElement === inputRef.current) {
-        inputRef.current?.scrollIntoView({ block: "nearest" });
+      const bar = inputBarRef.current;
+      if (!bar) return;
+
+      // If visual viewport is significantly smaller than window, keyboard is open
+      const heightDiff = window.innerHeight - vv!.height;
+      if (heightDiff > 150) {
+        setKeyboardOpen(true);
+        bar.style.position = "fixed";
+        bar.style.bottom = `${heightDiff}px`;
+        bar.style.left = "0";
+        bar.style.right = "0";
+        bar.style.zIndex = "9999";
+        bar.style.padding = "8px 16px";
+        bar.style.backgroundColor = "#FAFAF5";
+        bar.style.borderTop = "1px solid rgba(74,124,89,0.2)";
+      } else {
+        setKeyboardOpen(false);
+        bar.style.position = "";
+        bar.style.bottom = "";
+        bar.style.left = "";
+        bar.style.right = "";
+        bar.style.zIndex = "";
+        bar.style.padding = "";
+        bar.style.backgroundColor = "";
+        bar.style.borderTop = "";
       }
     }
 
     vv.addEventListener("resize", onResize);
-    return () => vv.removeEventListener("resize", onResize);
+    vv.addEventListener("scroll", onResize);
+    return () => {
+      vv.removeEventListener("resize", onResize);
+      vv.removeEventListener("scroll", onResize);
+    };
   }, []);
 
   async function send() {
@@ -123,8 +152,11 @@ export default function ChatBot() {
         )}
       </div>
 
+      {/* Spacer when keyboard is open to prevent content jump */}
+      {keyboardOpen && <div style={{ height: "60px" }} />}
+
       {/* Input - always at bottom of chat section */}
-      <div className="flex gap-3 shrink-0">
+      <div ref={inputBarRef} className="flex gap-3 shrink-0">
         <input
           ref={inputRef}
           type="text"
