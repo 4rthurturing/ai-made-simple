@@ -1,3 +1,6 @@
+import Quiz from "../components/Quiz";
+import { practicalUsesQuiz } from "../components/quizzes";
+
 export default function PracticalUses() {
   const uses = [
     {
@@ -208,6 +211,8 @@ export default function PracticalUses() {
           just rephrase your question. It is endlessly patient and never judges.
         </p>
       </div>
+
+      <Quiz title={practicalUsesQuiz.title} questions={practicalUsesQuiz.questions} />
     </div>
   );
 }

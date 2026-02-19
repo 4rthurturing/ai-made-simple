@@ -13,12 +13,8 @@ export const metadata: Metadata = {
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/what-is-ai", label: "What is AI?" },
-  { href: "/practical-uses", label: "Practical Uses" },
-  { href: "/try-it", label: "Try It" },
-  { href: "/common-fears", label: "Common Fears" },
-  { href: "/stay-safe", label: "Stay Safe" },
-  { href: "/for-families", label: "For Families" },
+  { href: "/learn", label: "Learn" },
+  { href: "/try-ai-now", label: "Try AI" },
   { href: "/glossary", label: "Glossary" },
 ];
 

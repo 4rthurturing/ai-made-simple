@@ -1,3 +1,6 @@
+import Quiz from "../components/Quiz";
+import { whatIsAiQuiz } from "../components/quizzes";
+
 export default function WhatIsAI() {
   return (
     <div>
@@ -261,6 +264,8 @@ export default function WhatIsAI() {
             tool, and a very useful one at that.
           </p>
         </div>
+
+        <Quiz title={whatIsAiQuiz.title} questions={whatIsAiQuiz.questions} />
       </div>
     </div>
   );

@@ -1,3 +1,6 @@
+import Quiz from "../components/Quiz";
+import { commonFearsQuiz } from "../components/quizzes";
+
 export default function CommonFears() {
   const fears = [
     {
@@ -142,6 +145,8 @@ export default function CommonFears() {
           page.
         </p>
       </div>
+
+      <Quiz title={commonFearsQuiz.title} questions={commonFearsQuiz.questions} />
     </div>
   );
 }
