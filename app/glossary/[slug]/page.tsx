@@ -5,15 +5,16 @@ import { glossaryTerms } from "../terms";
 const BASE_URL = "https://hellosage.co.uk";
 
 type PageProps = {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 };
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   return glossaryTerms.map((term) => ({ slug: term.slug }));
 }
 
-export default function GlossaryTermPage({ params }: PageProps) {
-  const term = glossaryTerms.find((item) => item.slug === params.slug);
+export default async function GlossaryTermPage({ params }: PageProps) {
+  const { slug } = await params;
+  const term = glossaryTerms.find((item) => item.slug === slug);
 
   if (!term) {
     notFound();
