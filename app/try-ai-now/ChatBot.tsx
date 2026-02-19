@@ -107,14 +107,14 @@ export default function ChatBot() {
       </div>
 
       {/* Input */}
-      <div className="flex gap-3 pb-4">
+      <div className="flex gap-2 pb-4">
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && send()}
           placeholder="Type your message here..."
-          className="flex-1 rounded-btn px-5 text-body border-2 focus:outline-none focus:ring-2"
+          className="flex-1 min-w-0 rounded-btn px-4 text-body border-2 focus:outline-none focus:ring-2"
           style={{
             minHeight: "52px",
             borderColor: "#4A7C59",
@@ -125,7 +125,7 @@ export default function ChatBot() {
         <button
           onClick={send}
           disabled={loading || !input.trim()}
-          className="rounded-btn px-8 font-semibold text-body transition-opacity hover:opacity-90 disabled:opacity-50"
+          className="rounded-btn px-5 shrink-0 font-semibold text-body transition-opacity hover:opacity-90 disabled:opacity-50"
           style={{
             minHeight: "52px",
             backgroundColor: "#2D5A3D",
