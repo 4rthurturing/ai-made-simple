@@ -6,9 +6,9 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sage — Your Friendly Guide to AI",
+  title: "Sage - Your Friendly Guide to AI",
   description:
-    "AI explained by humans, for humans. A friendly guide to understanding artificial intelligence — designed for everyone.",
+    "AI explained by humans, for humans. A friendly guide to understanding artificial intelligence, designed for everyone.",
 };
 
 const navLinks = [
@@ -69,7 +69,7 @@ export default function RootLayout({
 
         <footer className="text-center py-10 border-t mt-12" style={{ color: "#6B7280" }}>
           <p className="text-lg">
-            🌿 <strong>Sage</strong> — AI explained by humans, for humans.
+            🌿 <strong>Sage</strong> · AI explained by humans, for humans.
           </p>
           <p className="text-base mt-2">
             Made with ❤️ by David & Arthur · © 2026

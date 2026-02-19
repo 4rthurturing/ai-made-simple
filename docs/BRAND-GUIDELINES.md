@@ -1,28 +1,28 @@
-# Sage — Brand Guidelines
+# Sage - Brand Guidelines
 
 ## 1. Brand Overview
 
 ### Name
-**Sage** — Your Friendly Guide to AI
+**Sage** - Your Friendly Guide to AI
 
 ### Tagline
 "AI explained by humans, for humans."
 
 ### Mission
-To make artificial intelligence approachable, understandable, and useful for older adults — empowering them to embrace technology with confidence, not fear.
+To make artificial intelligence approachable, understandable, and useful for older adults - empowering them to embrace technology with confidence, not fear.
 
 ### Vision
 A world where no one is left behind by technology. Where age is never a barrier to understanding.
 
 ### Brand Values
-1. **Patience** — We never rush. We explain things as many times as needed.
-2. **Respect** — Our audience is wise. We're adding to their knowledge, not talking down.
-3. **Clarity** — If it can't be said simply, it hasn't been understood well enough.
-4. **Warmth** — We're a friendly neighbour, not a textbook.
-5. **Honesty** — We tell the truth about AI — the good, the limitations, and the risks.
+1. **Patience** - We never rush. We explain things as many times as needed.
+2. **Respect** - Our audience is wise. We're adding to their knowledge, not talking down.
+3. **Clarity** - If it can't be said simply, it hasn't been understood well enough.
+4. **Warmth** - We're a friendly neighbour, not a textbook.
+5. **Honesty** - We tell the truth about AI - the good, the limitations, and the risks.
 
 ### Brand Personality
-Sage is like a patient, knowledgeable friend who happens to understand technology really well. Think: the person in the family everyone calls when they need help with their phone — but without the sighing or eye-rolling.
+Sage is like a patient, knowledgeable friend who happens to understand technology really well. Think: the person in the family everyone calls when they need help with their phone - but without the sighing or eye-rolling.
 
 - Warm, never cold
 - Clear, never clever
@@ -43,9 +43,9 @@ Sage is like a patient, knowledgeable friend who happens to understand technolog
 The Sage logo combines a leaf icon (🌿) with clean, rounded typography. The leaf represents growth, wisdom, and the natural simplicity of the brand.
 
 **Logo Variations:**
-- **Primary:** Full logo (icon + wordmark) — for headers, hero sections
-- **Secondary:** Wordmark only — for tight spaces
-- **Icon:** Leaf only — for favicons, app icons, social avatars
+- **Primary:** Full logo (icon + wordmark) - for headers, hero sections
+- **Secondary:** Wordmark only - for tight spaces
+- **Icon:** Leaf only - for favicons, app icons, social avatars
 
 **Clear Space:** Maintain padding equal to the height of the "S" in Sage around all sides.
 
@@ -100,7 +100,7 @@ The Sage logo combines a leaf icon (🌿) with clean, rounded typography. The le
 #### Font Pairing
 - **Headlines:** Inter Bold/Semibold
 - **Body:** Inter Regular
-- **No serif fonts** — sans-serif is easier to read on screens for our audience
+- **No serif fonts** - sans-serif is easier to read on screens for our audience
 
 ### Imagery Style
 - **Photography:** Warm, natural lighting. Real people (diverse ages, especially older adults). No stock photo clichés of elderly people staring at screens looking confused.
@@ -162,7 +162,7 @@ Sage speaks like a patient, warm friend. We use:
 ### Required Assets
 - [ ] Primary logo (SVG, PNG at 1x, 2x, 3x)
 - [ ] Icon/favicon (16px, 32px, 180px, 512px)
-- [ ] Open Graph image (1200x630px) — for social sharing
+- [ ] Open Graph image (1200x630px) - for social sharing
 - [ ] Social avatar (400x400px)
 - [ ] Social cover photo (1500x500px for Twitter, 820x312px for Facebook)
 - [ ] Email header (600px wide)
@@ -222,5 +222,5 @@ Sage speaks like a patient, warm friend. We use:
 
 ---
 
-*Sage Brand Guidelines v1.0 — February 2026*
+*Sage Brand Guidelines v1.0 - February 2026*
 *Created by David & Arthur*

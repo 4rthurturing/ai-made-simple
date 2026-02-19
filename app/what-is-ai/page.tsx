@@ -11,7 +11,7 @@ export default function WhatIsAI() {
             The Simple Version
           </h2>
           <p>
-            AI — or <strong>Artificial Intelligence</strong> — is a computer
+            AI, or <strong>Artificial Intelligence</strong>, is a computer
             program that can learn from information and make decisions, a bit
             like how your brain learns from experience.
           </p>
@@ -23,7 +23,7 @@ export default function WhatIsAI() {
           </h2>
           <p className="mb-5">
             Imagine you&apos;ve been cooking for 50 years. You don&apos;t need a
-            recipe for most things — you just <em>know</em> what works.
+            recipe for most things. You just <em>know</em> what works.
             You&apos;ve learned from thousands of meals.
           </p>
           <p className="mb-5">
@@ -86,13 +86,13 @@ export default function WhatIsAI() {
             <li className="flex items-start gap-3">
               <span className="text-2xl">❌</span>
               <span>
-                It can make mistakes — always double-check important information
+                It can make mistakes, so always double-check important information
               </span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-2xl">❌</span>
               <span>
-                It can&apos;t physically do things — it&apos;s software, not a
+                It can&apos;t physically do things. It&apos;s software, not a
                 robot
               </span>
             </li>
@@ -114,7 +114,7 @@ export default function WhatIsAI() {
           <p className="text-body-lg">
             AI is a very clever assistant. It&apos;s not magic, it&apos;s not
             alive, and it&apos;s not something to be afraid of. It&apos;s just a
-            tool — and a very useful one.
+            tool, and a very useful one.
           </p>
         </div>
       </div>

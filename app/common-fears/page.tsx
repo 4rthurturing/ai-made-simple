@@ -3,7 +3,7 @@ export default function CommonFears() {
     {
       question: "Will AI take over the world?",
       answer:
-        "No. The AI you can use today is a tool — like a very clever calculator. It doesn't have desires, ambitions, or consciousness. It can't decide to do anything on its own. It only does what people ask it to do.",
+        "No. The AI you can use today is a tool, like a very clever calculator. It doesn't have desires, ambitions, or consciousness. It can't decide to do anything on its own. It only does what people ask it to do.",
     },
     {
       question: "Is it listening to me?",
@@ -18,12 +18,12 @@ export default function CommonFears() {
     {
       question: "Am I too old to learn this?",
       answer:
-        "Absolutely not. If you can have a conversation, you can use AI. You don't need to understand how it works — you just talk to it normally. Many people in their 70s, 80s, and beyond are using AI every day and finding it genuinely helpful.",
+        "Absolutely not. If you can have a conversation, you can use AI. You don't need to understand how it works. You just talk to it normally. Many people in their 70s, 80s, and beyond are using AI every day and finding it genuinely helpful.",
     },
     {
       question: "Will it replace my doctor / solicitor / accountant?",
       answer:
-        "No. AI is great for general information and explanations, but it should never replace professional advice for medical, legal, or financial matters. Think of it as a first step — it can help you understand things and prepare better questions for the professionals.",
+        "No. AI is great for general information and explanations, but it should never replace professional advice for medical, legal, or financial matters. Think of it as a first step. It can help you understand things and prepare better questions for the professionals.",
     },
     {
       question: "What if it gives me wrong information?",
@@ -38,7 +38,7 @@ export default function CommonFears() {
     {
       question: "Will it make people lazy or stupid?",
       answer:
-        "Using a washing machine didn't make people lazy — it freed up time for more important things. AI is the same. It handles tedious tasks so you can focus on what matters to you. It's a tool to enhance your life, not replace your thinking.",
+        "Using a washing machine didn't make people lazy. It freed up time for more important things. AI is the same. It handles tedious tasks so you can focus on what matters to you. It's a tool to enhance your life, not replace your thinking.",
     },
   ];
 

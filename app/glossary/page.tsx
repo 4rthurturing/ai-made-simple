@@ -33,7 +33,7 @@ export default function Glossary() {
     {
       term: "Machine Learning",
       definition:
-        "How AI improves — by studying lots of examples and finding patterns. Like how you learned to recognise faces as a baby, but with data instead.",
+        "How AI improves by studying lots of examples and finding patterns. Like how you learned to recognise faces as a baby, but with data instead.",
     },
     {
       term: "Algorithm",
@@ -53,7 +53,7 @@ export default function Glossary() {
     {
       term: "Data",
       definition:
-        'Information. When people say AI uses "your data," they mean information about you — what you type, click, or share online.',
+        'Information. When people say AI uses "your data," they mean information about you, like what you type, click, or share online.',
     },
     {
       term: "The Cloud",

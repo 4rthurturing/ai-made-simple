@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sage - Brand Guidelines</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #FAFAF5; color: #1a1a1a; line-height: 1.7; font-size: 18px; }
+    .page { max-width: 800px; margin: 0 auto; padding: 40px 30px; }
+    
+    /* Cover */
+    .cover { background: #2D5A3D; color: white; padding: 80px 40px; text-align: center; margin: -40px -30px 60px; border-radius: 0 0 24px 24px; }
+    .cover .leaf { font-size: 80px; margin-bottom: 20px; }
+    .cover h1 { font-size: 56px; font-weight: 700; margin-bottom: 12px; }
+    .cover .tagline { font-size: 24px; font-weight: 400; opacity: 0.9; margin-bottom: 30px; }
+    .cover .version { font-size: 14px; opacity: 0.6; }
+    
+    h2 { font-size: 32px; font-weight: 700; color: #2D5A3D; margin: 50px 0 20px; padding-bottom: 10px; border-bottom: 3px solid #E8F0E9; }
+    h3 { font-size: 24px; font-weight: 600; color: #4A7C59; margin: 30px 0 15px; }
+    p { margin-bottom: 16px; }
+    ul { margin: 10px 0 20px 24px; }
+    li { margin-bottom: 8px; }
+    strong { color: #2D5A3D; }
+    
+    /* Sections */
+    .section { background: white; border-radius: 16px; padding: 32px; margin-bottom: 30px; border: 1px solid #E8F0E9; }
+    
+    /* Colour Swatches */
+    .swatch-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 20px 0; }
+    .swatch { border-radius: 12px; overflow: hidden; border: 1px solid #ddd; }
+    .swatch-color { height: 80px; }
+    .swatch-info { padding: 12px; background: white; }
+    .swatch-name { font-weight: 600; font-size: 15px; }
+    .swatch-hex { font-size: 14px; color: #6B7280; font-family: monospace; }
+    
+    /* Typography Demo */
+    .type-demo { margin: 20px 0; }
+    .type-row { display: flex; align-items: baseline; gap: 20px; padding: 16px 0; border-bottom: 1px solid #E8F0E9; }
+    .type-label { font-size: 14px; color: #6B7280; min-width: 120px; }
+    
+    /* Logo Area */
+    .logo-display { background: white; border-radius: 16px; padding: 40px; text-align: center; margin: 20px 0; border: 2px dashed #A3C3A7; }
+    .logo-display.dark { background: #2D5A3D; border-color: #4A7C59; color: white; }
+    .logo-text { font-size: 48px; font-weight: 700; }
+    .logo-text .leaf { margin-right: 12px; }
+    
+    /* Voice Table */
+    .voice-table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    .voice-table th { background: #2D5A3D; color: white; padding: 12px 16px; text-align: left; font-size: 16px; }
+    .voice-table td { padding: 12px 16px; border-bottom: 1px solid #E8F0E9; font-size: 16px; }
+    .voice-table tr:nth-child(even) { background: #E8F0E9; }
+    .do { color: #22C55E; font-weight: 600; }
+    .dont { color: #DC2626; font-weight: 600; }
+    
+    /* Values */
+    .value-card { display: flex; gap: 16px; padding: 20px; background: #E8F0E9; border-radius: 12px; margin-bottom: 12px; }
+    .value-num { background: #4A7C59; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; }
+    .value-title { font-weight: 700; color: #2D5A3D; }
+    
+    /* Accessibility */
+    .access-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 20px 0; }
+    .access-card { background: #E8F0E9; border-radius: 12px; padding: 20px; }
+    .access-card .icon { font-size: 28px; margin-bottom: 8px; }
+    .access-card .label { font-weight: 600; color: #2D5A3D; }
+    .access-card .detail { font-size: 15px; color: #6B7280; }
+
+    /* Print */
+    @media print {
+      .page { padding: 20px; }
+      .cover { padding: 50px 30px; }
+      .section { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- COVER -->
+    <div class="cover">
+      <div class="leaf">🌿</div>
+      <h1>Sage</h1>
+      <div class="tagline">Your Friendly Guide to AI</div>
+      <p style="font-size: 20px; opacity: 0.85;">Brand Guidelines</p>
+      <div class="version">Version 1.0 · February 2026 · Created by David & Arthur</div>
+    </div>
+
+    <!-- MISSION -->
+    <h2>1. Brand Overview</h2>
+    
+    <div class="section">
+      <h3>Mission</h3>
+      <p>To make artificial intelligence approachable, understandable, and useful for older adults - empowering them to embrace technology with confidence, not fear.</p>
+      
+      <h3>Vision</h3>
+      <p>A world where no one is left behind by technology. Where age is never a barrier to understanding.</p>
+      
+      <h3>Tagline</h3>
+      <p style="font-size: 24px; color: #4A7C59; font-weight: 600; font-style: italic;">"AI explained by humans, for humans."</p>
+    </div>
+
+    <div class="section">
+      <h3>Brand Values</h3>
+      <div class="value-card">
+        <div class="value-num">1</div>
+        <div><span class="value-title">Patience</span> - We never rush. We explain things as many times as needed.</div>
+      </div>
+      <div class="value-card">
+        <div class="value-num">2</div>
+        <div><span class="value-title">Respect</span> - Our audience is wise. We're adding to their knowledge, not talking down.</div>
+      </div>
+      <div class="value-card">
+        <div class="value-num">3</div>
+        <div><span class="value-title">Clarity</span> - If it can't be said simply, it hasn't been understood well enough.</div>
+      </div>
+      <div class="value-card">
+        <div class="value-num">4</div>
+        <div><span class="value-title">Warmth</span> - We're a friendly neighbour, not a textbook.</div>
+      </div>
+      <div class="value-card">
+        <div class="value-num">5</div>
+        <div><span class="value-title">Honesty</span> - We tell the truth about AI - the good, the limitations, and the risks.</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Brand Personality</h3>
+      <p>Sage is like a patient, knowledgeable friend who happens to understand technology really well. Think: the person in the family everyone calls when they need help with their phone - but without the sighing or eye-rolling.</p>
+      <ul>
+        <li>Warm, never cold</li>
+        <li>Clear, never clever</li>
+        <li>Encouraging, never condescending</li>
+        <li>Honest, never salesy</li>
+        <li>British, approachable</li>
+      </ul>
+    </div>
+
+    <!-- LOGO -->
+    <h2>2. Logo</h2>
+    
+    <div class="section">
+      <h3>Primary Logo (Light Background)</h3>
+      <div class="logo-display">
+        <div class="logo-text" style="color: #2D5A3D;"><span class="leaf">🌿</span>Sage</div>
+        <p style="color: #6B7280; margin-top: 12px; font-size: 16px;">Your Friendly Guide to AI</p>
+      </div>
+      
+      <h3>Primary Logo (Dark Background)</h3>
+      <div class="logo-display dark">
+        <div class="logo-text" style="color: white;"><span class="leaf">🌿</span>Sage</div>
+        <p style="color: rgba(255,255,255,0.7); margin-top: 12px; font-size: 16px;">Your Friendly Guide to AI</p>
+      </div>
+
+      <h3>Icon Only</h3>
+      <div class="logo-display">
+        <span style="font-size: 64px;">🌿</span>
+        <p style="color: #6B7280; margin-top: 12px; font-size: 14px;">For favicons, app icons, and social avatars</p>
+      </div>
+    </div>
+
+    <!-- COLOURS -->
+    <h2>3. Colour Palette</h2>
+    
+    <div class="section">
+      <h3>Primary Colours</h3>
+      <div class="swatch-grid">
+        <div class="swatch">
+          <div class="swatch-color" style="background: #4A7C59;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Sage Green</div>
+            <div class="swatch-hex">#4A7C59</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #2D5A3D;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Deep Forest</div>
+            <div class="swatch-hex">#2D5A3D</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #FAFAF5; border-bottom: 1px solid #ddd;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Warm White</div>
+            <div class="swatch-hex">#FAFAF5</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Secondary Colours</h3>
+      <div class="swatch-grid">
+        <div class="swatch">
+          <div class="swatch-color" style="background: #D4A843;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Soft Gold</div>
+            <div class="swatch-hex">#D4A843</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #5B9BD5;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Sky Blue</div>
+            <div class="swatch-hex">#5B9BD5</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #6B7280;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Warm Grey</div>
+            <div class="swatch-hex">#6B7280</div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Accent & Background</h3>
+      <div class="swatch-grid">
+        <div class="swatch">
+          <div class="swatch-color" style="background: #E8F0E9; border-bottom: 1px solid #ddd;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Light Sage</div>
+            <div class="swatch-hex">#E8F0E9</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #22C55E;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Success</div>
+            <div class="swatch-hex">#22C55E</div>
+          </div>
+        </div>
+        <div class="swatch">
+          <div class="swatch-color" style="background: #DC2626;"></div>
+          <div class="swatch-info">
+            <div class="swatch-name">Error</div>
+            <div class="swatch-hex">#DC2626</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TYPOGRAPHY -->
+    <h2>4. Typography</h2>
+    
+    <div class="section">
+      <h3>Font Family: Inter</h3>
+      <p>Clean, highly readable, excellent at all sizes. Free via Google Fonts. Designed specifically for screens.</p>
+      
+      <div class="type-demo">
+        <div class="type-row">
+          <div class="type-label">H1 - 42px Bold</div>
+          <div style="font-size: 42px; font-weight: 700; color: #2D5A3D; line-height: 1.2;">Page Title</div>
+        </div>
+        <div class="type-row">
+          <div class="type-label">H2 - 32px Semi</div>
+          <div style="font-size: 32px; font-weight: 600; color: #2D5A3D; line-height: 1.3;">Section Heading</div>
+        </div>
+        <div class="type-row">
+          <div class="type-label">H3 - 24px Semi</div>
+          <div style="font-size: 24px; font-weight: 600; color: #4A7C59; line-height: 1.3;">Subsection</div>
+        </div>
+        <div class="type-row">
+          <div class="type-label">Body - 20px</div>
+          <div style="font-size: 20px; font-weight: 400; line-height: 1.7;">This is body text. Large and readable for our audience. Never smaller than 18px.</div>
+        </div>
+        <div class="type-row">
+          <div class="type-label">Body Large - 22px</div>
+          <div style="font-size: 22px; font-weight: 400; line-height: 1.7;">For featured text and key messages.</div>
+        </div>
+        <div class="type-row">
+          <div class="type-label">Button - 20px Semi</div>
+          <div style="display: inline-block; font-size: 20px; font-weight: 600; background: #4A7C59; color: white; padding: 14px 32px; border-radius: 12px;">Get Started</div>
+        </div>
+      </div>
+      
+      <p style="background: #FEF2F2; padding: 16px; border-radius: 12px; color: #991B1B; font-weight: 600;">
+        ⚠️ Critical Rule: Body text is NEVER smaller than 18px. Our audience needs large, clear text.
+      </p>
+    </div>
+
+    <!-- VOICE -->
+    <h2>5. Voice & Tone</h2>
+    
+    <div class="section">
+      <h3>How Sage Speaks</h3>
+      <ul>
+        <li><strong>Short sentences.</strong> Like this.</li>
+        <li><strong>Simple words.</strong> "Use" not "utilise". "Help" not "facilitate".</li>
+        <li><strong>Active voice.</strong> "AI can help you write emails" not "Emails can be written with AI assistance".</li>
+        <li><strong>British English.</strong> Colour, not color. Organise, not organize.</li>
+      </ul>
+
+      <h3>Do's and Don'ts</h3>
+      <table class="voice-table">
+        <thead>
+          <tr>
+            <th>✅ Do Say</th>
+            <th>❌ Don't Say</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="do">"You can ask AI to..."</td><td class="dont">"Simply leverage the AI to..."</td></tr>
+          <tr><td class="do">"This might take a moment"</td><td class="dont">"Please wait while we process"</td></tr>
+          <tr><td class="do">"Let's try again"</td><td class="dont">"Error: Invalid input"</td></tr>
+          <tr><td class="do">"Think of it like..."</td><td class="dont">"Technically speaking..."</td></tr>
+          <tr><td class="do">"That's a great question"</td><td class="dont">"As per the documentation"</td></tr>
+          <tr><td class="do">"older adults" or "over 60s"</td><td class="dont">"elderly", "seniors", "old people"</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Tone Examples</h3>
+      <div style="background: #E8F0E9; padding: 20px; border-radius: 12px; margin: 12px 0; border-left: 4px solid #4A7C59;">
+        <p style="font-weight: 600; color: #2D5A3D; margin-bottom: 4px;">Educational</p>
+        <p style="font-style: italic;">"AI is a tool that learns from information. Think of it like a very knowledgeable assistant that can answer questions in plain English."</p>
+      </div>
+      <div style="background: #FFF8E7; padding: 20px; border-radius: 12px; margin: 12px 0; border-left: 4px solid #D4A843;">
+        <p style="font-weight: 600; color: #8B6914; margin-bottom: 4px;">Encouraging</p>
+        <p style="font-style: italic;">"You don't need to be a tech expert. If you can have a conversation, you can use AI. It's that simple."</p>
+      </div>
+      <div style="background: #EFF6FF; padding: 20px; border-radius: 12px; margin: 12px 0; border-left: 4px solid #5B9BD5;">
+        <p style="font-weight: 600; color: #1E40AF; margin-bottom: 4px;">Reassuring</p>
+        <p style="font-style: italic;">"AI can't access your bank account or read your private messages. It only knows what you tell it directly."</p>
+      </div>
+    </div>
+
+    <!-- ACCESSIBILITY -->
+    <h2>6. Accessibility Standards</h2>
+    
+    <div class="section">
+      <p style="font-weight: 600; color: #2D5A3D; font-size: 20px; margin-bottom: 20px;">These are non-negotiable for our audience.</p>
+      
+      <div class="access-grid">
+        <div class="access-card">
+          <div class="icon">👁️</div>
+          <div class="label">WCAG AAA Contrast</div>
+          <div class="detail">7:1 ratio minimum for all body text</div>
+        </div>
+        <div class="access-card">
+          <div class="icon">🔤</div>
+          <div class="label">Minimum 18px Text</div>
+          <div class="detail">Recommended 20px for body copy</div>
+        </div>
+        <div class="access-card">
+          <div class="icon">👆</div>
+          <div class="label">48px Touch Targets</div>
+          <div class="detail">All buttons and links minimum 48x48px</div>
+        </div>
+        <div class="access-card">
+          <div class="icon">⌨️</div>
+          <div class="label">Keyboard Navigation</div>
+          <div class="detail">Full site navigable without a mouse</div>
+        </div>
+        <div class="access-card">
+          <div class="icon">📏</div>
+          <div class="label">1.7x Line Height</div>
+          <div class="detail">Generous spacing for readability</div>
+        </div>
+        <div class="access-card">
+          <div class="icon">📝</div>
+          <div class="label">Plain Language</div>
+          <div class="detail">Reading level: age 11-12 max</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div style="text-align: center; padding: 40px 0; color: #6B7280; font-size: 15px;">
+      <p>🌿 <strong>Sage Brand Guidelines</strong> · Version 1.0 · February 2026</p>
+      <p>Created by David & Arthur</p>
+    </div>
+
+  </div>
+</body>
+</html>

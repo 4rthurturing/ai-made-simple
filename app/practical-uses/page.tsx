@@ -104,7 +104,7 @@ export default function PracticalUses() {
         <p className="text-h3 font-semibold mb-2">Remember</p>
         <p className="text-body-lg">
           You talk to AI just like you&apos;d talk to a helpful friend. No
-          special commands needed — just plain English.
+          special commands needed. Just plain English.
         </p>
       </div>
     </div>

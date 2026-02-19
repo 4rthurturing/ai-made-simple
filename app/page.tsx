@@ -9,7 +9,7 @@ export default function Home() {
           AI Isn&apos;t Scary.
         </h1>
         <h2 className="text-h3 mb-10" style={{ color: "#6B7280" }}>
-          Let us show you how it works — in plain English.
+          Let us show you how it works, in plain English.
         </h2>
       </div>
 
@@ -24,7 +24,7 @@ export default function Home() {
         </p>
         <p className="mb-5">
           <strong>Here&apos;s the good news:</strong> AI is just a tool. Like a
-          calculator, a washing machine, or the internet — it&apos;s here to
+          calculator, a washing machine, or the internet. It&apos;s here to
           make your life easier, not harder.
         </p>
         <p>
@@ -69,7 +69,7 @@ export default function Home() {
             💡 Practical Uses
           </h3>
           <p className="text-body" style={{ color: "#6B7280" }}>
-            Real ways AI can help you every day — from writing letters to
+            Real ways AI can help you every day, from writing letters to
             planning meals.
           </p>
         </Link>
@@ -130,7 +130,7 @@ export default function Home() {
           >
             &quot;What is AI?&quot;
           </Link>{" "}
-          — it takes about 3 minutes to read and explains everything you need
+          . It takes about 3 minutes to read and covers everything you need
           to know.
         </p>
       </div>
