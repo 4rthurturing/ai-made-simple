@@ -44,7 +44,32 @@ const config: Config = {
         "btn": "12px",
       },
       maxWidth: {
-        "content": "800px",
+        "content": "1100px",
+      },
+      keyframes: {
+        fadeInUp: {
+          "0%": { opacity: "0", transform: "translateY(18px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+        gradientShift: {
+          "0%": { backgroundPosition: "0% 50%" },
+          "50%": { backgroundPosition: "100% 50%" },
+          "100%": { backgroundPosition: "0% 50%" },
+        },
+        shimmer: {
+          "0%": { backgroundPosition: "-120% 0" },
+          "100%": { backgroundPosition: "120% 0" },
+        },
+      },
+      animation: {
+        "fade-in-up": "fadeInUp 0.8s ease forwards",
+        "float-slow": "float 8s ease-in-out infinite",
+        "gradient-shift": "gradientShift 10s ease infinite",
+        "shimmer": "shimmer 2.4s ease-in-out infinite",
       },
     },
   },

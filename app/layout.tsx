@@ -75,8 +75,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.className} min-h-screen`}
-        style={{ backgroundColor: "#FAFAF5", color: "#1a1a1a" }}
+        className={`${inter.className} min-h-screen text-[#1a1a1a] bg-[linear-gradient(135deg,#FAFAF5_0%,#F0F5F1_100%)]`}
       >
         {/* Skip to content for accessibility */}
         <a
@@ -86,15 +85,11 @@ export default function RootLayout({
           Skip to main content
         </a>
 
-        <nav
-          className="px-6 py-5 shadow-md border-b-4"
-          style={{ backgroundColor: "#FAFAF5", borderColor: "#4A7C59" }}
-        >
+        <nav className="px-6 py-5 glass-nav">
           <div className="max-w-content mx-auto flex flex-wrap items-center justify-between gap-4">
             <Link
               href="/"
-              className="text-3xl font-bold tracking-tight hover:opacity-80 transition-opacity"
-              style={{ color: "#2D5A3D" }}
+              className="text-3xl font-bold tracking-tight hover:opacity-80 transition-opacity text-[#2D5A3D]"
             >
               🌿 Sage AI
             </Link>

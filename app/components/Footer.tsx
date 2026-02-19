@@ -47,7 +47,19 @@ function FooterColumn({ title, links }: { title: string; links: { href: string; 
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: "#2D5A3D", color: "#FFFFFF" }}>
+    <footer
+      className="relative overflow-hidden"
+      style={{
+        background: "linear-gradient(135deg, #1E3D29 0%, #2D5A3D 55%, #3D6649 100%)",
+        color: "#FFFFFF",
+      }}
+    >
+      <div
+        className="absolute top-0 left-0 right-0 h-[3px]"
+        style={{
+          background: "linear-gradient(90deg, rgba(212,168,67,0.9), rgba(74,124,89,0.3), rgba(212,168,67,0.9))",
+        }}
+      />
       <div className="max-w-5xl mx-auto px-6 py-12">
         {/* About section */}
         <div className="mb-10">

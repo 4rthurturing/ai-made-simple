@@ -22,8 +22,7 @@ export default function MobileNav() {
           <Link
             key={link.href}
             href={link.href}
-            className="font-semibold hover:underline underline-offset-4 transition-colors"
-            style={{ color: "#2D5A3D" }}
+            className="font-semibold tracking-tight text-[#2D5A3D] hover:text-[#1E3D29] transition-colors"
           >
             {link.label}
           </Link>
@@ -32,7 +31,7 @@ export default function MobileNav() {
 
       {/* Mobile hamburger button */}
       <button
-        className="md:hidden flex flex-col justify-center items-center w-12 h-12 rounded-lg"
+        className="md:hidden flex flex-col justify-center items-center w-12 h-12 rounded-lg bg-white/70 border border-sage-200/70 shadow-sm backdrop-blur"
         onClick={() => setOpen(!open)}
         aria-label="Toggle menu"
         style={{ color: "#2D5A3D" }}
@@ -53,15 +52,14 @@ export default function MobileNav() {
 
       {/* Mobile dropdown menu */}
       {open && (
-        <div className="md:hidden w-full pt-4 pb-2 border-t mt-4" style={{ borderColor: "#E8F0E9" }}>
-          <div className="flex flex-col gap-4">
+        <div className="md:hidden w-full pt-4 pb-2 mt-4">
+          <div className="flex flex-col gap-3 rounded-card glass-card p-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="font-semibold text-xl py-2 hover:underline underline-offset-4 transition-colors"
-                style={{ color: "#2D5A3D" }}
+                className="font-semibold text-lg py-2 px-2 rounded-btn text-[#2D5A3D] hover:text-[#1E3D29] hover:bg-white/60 transition-colors"
               >
                 {link.label}
               </Link>
