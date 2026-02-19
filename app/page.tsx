@@ -14,10 +14,10 @@ export default function Home() {
         <div className="relative z-10 px-4">
           <p className="text-6xl mb-6">🌿</p>
           <h1 className="text-[46px] md:text-[64px] font-bold tracking-tight mb-4 gradient-text animate-gradient-shift">
-            AI Isn&apos;t Scary.
+            You&apos;ve Got This.
           </h1>
           <h2 className="text-h3 text-warm-grey mb-8">
-            Let us show you how it works, in plain English.
+            Learn about AI in plain English. No jargon, no pressure.
           </h2>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Link
