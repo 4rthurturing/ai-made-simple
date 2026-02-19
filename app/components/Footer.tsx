@@ -63,7 +63,7 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto px-6 py-12">
         {/* About section */}
         <div className="mb-10">
-          <Link href="/" className="text-2xl font-bold hover:opacity-80 transition-opacity">
+          <Link href="/" className="text-2xl font-bold hover:opacity-80 transition-opacity text-white no-underline" style={{ color: "#FFFFFF" }}>
             🌿 Sage AI
           </Link>
           <p className="text-base mt-2" style={{ color: "#D1E1D3" }}>

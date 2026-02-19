@@ -22,7 +22,7 @@ export default function Home() {
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Link
               href="/what-is-ai"
-              className="px-6 py-3 rounded-btn text-lg font-semibold text-white bg-[#2D5A3D] hover:bg-[#244B34] transition-colors shadow-lg"
+              className="px-6 py-3 rounded-btn text-lg font-bold text-white bg-[#1E3D29] hover:bg-[#163020] transition-colors shadow-lg"
             >
               Start with the basics
             </Link>
