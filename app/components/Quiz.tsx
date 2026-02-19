@@ -126,6 +126,9 @@ export default function Quiz({ title, questions, lessonNumber }: QuizProps) {
         setShowConfetti(true);
         setTimeout(() => setShowConfetti(false), 3000);
       }
+      setTimeout(() => {
+        quizTopRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 50);
     } else {
       setCurrentQ((c) => c + 1);
       setSelected(null);
