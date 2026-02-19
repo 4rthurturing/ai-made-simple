@@ -16,8 +16,8 @@ export default function ChatBot() {
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
-  const bottomRef = useRef<HTMLDivElement>(null);
   const chatContainerRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
   const isFirstRender = useRef(true);
 
   useEffect(() => {
@@ -25,11 +25,26 @@ export default function ChatBot() {
       isFirstRender.current = false;
       return;
     }
-    // Scroll within the chat container only, not the whole page
     if (chatContainerRef.current) {
       chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
     }
   }, [messages]);
+
+  // On iOS, when the virtual keyboard opens it resizes the visual viewport.
+  // We listen for that and scroll the input wrapper into view.
+  useEffect(() => {
+    const vv = window.visualViewport;
+    if (!vv) return;
+
+    function onResize() {
+      if (document.activeElement === inputRef.current) {
+        inputRef.current?.scrollIntoView({ block: "nearest" });
+      }
+    }
+
+    vv.addEventListener("resize", onResize);
+    return () => vv.removeEventListener("resize", onResize);
+  }, []);
 
   async function send() {
     const text = input.trim();
@@ -63,21 +78,21 @@ export default function ChatBot() {
   }
 
   return (
-    <div>
+    <div className="flex flex-col" style={{ minHeight: "min(70vh, 600px)" }}>
       {/* Disclaimer */}
       <div
-        className="rounded-btn p-4 mb-6 text-base"
+        className="rounded-btn p-4 mb-4 text-base shrink-0"
         style={{ backgroundColor: "#FEF3C7", color: "#92400E" }}
       >
         ⚠️ This is a live AI assistant. It may occasionally make mistakes. Don&apos;t share personal
         information like passwords or bank details.
       </div>
 
-      {/* Chat area */}
+      {/* Chat area - grows to fill space */}
       <div
         ref={chatContainerRef}
-        className="rounded-card p-6 mb-4 overflow-y-auto"
-        style={{ backgroundColor: "#E8F0E9", maxHeight: "480px", minHeight: "300px" }}
+        className="rounded-card p-6 mb-4 overflow-y-auto grow"
+        style={{ backgroundColor: "#E8F0E9", maxHeight: "480px", minHeight: "200px" }}
       >
         {messages.map((msg, i) => (
           <div
@@ -106,21 +121,16 @@ export default function ChatBot() {
             </div>
           </div>
         )}
-        <div ref={bottomRef} />
       </div>
 
-      {/* Input */}
-      <div className="flex gap-3 py-3">
+      {/* Input - always at bottom of chat section */}
+      <div className="flex gap-3 shrink-0">
         <input
+          ref={inputRef}
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && send()}
-          onFocus={(e) => {
-            setTimeout(() => {
-              e.target.scrollIntoView({ behavior: "smooth", block: "center" });
-            }, 300);
-          }}
           placeholder="Type your message here..."
           className="flex-1 rounded-btn px-5 text-body border-2 focus:outline-none focus:ring-2"
           style={{

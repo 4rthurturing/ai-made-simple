@@ -18,7 +18,9 @@ export default function TryAIPage() {
       </p>
       <ChatBot />
 
-      <LessonNav currentLesson={3} />
+      <div className="mt-8">
+        <LessonNav currentLesson={3} />
+      </div>
     </div>
   );
 }
