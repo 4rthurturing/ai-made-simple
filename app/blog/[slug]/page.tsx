@@ -62,19 +62,19 @@ export default async function BlogPost({ params }: Props) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://hellosage.co.uk",
+        item: "https://ai-made-simple-three.vercel.app",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Blog",
-        item: "https://hellosage.co.uk/blog",
+        item: "https://ai-made-simple-three.vercel.app/blog",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: article.title,
-        item: `https://hellosage.co.uk/blog/${article.slug}`,
+        item: `https://ai-made-simple-three.vercel.app/blog/${article.slug}`,
       },
     ],
   };
@@ -89,7 +89,7 @@ export default async function BlogPost({ params }: Props) {
     publisher: {
       "@type": "Organization",
       name: "Sage AI",
-      url: "https://hellosage.co.uk",
+      url: "https://ai-made-simple-three.vercel.app",
     },
     audience: {
       "@type": "Audience",
